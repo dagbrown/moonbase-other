@@ -1,14 +1,14 @@
           MODULE=git
-         VERSION=2.9.2
+         VERSION=2.10.0
           SOURCE=$MODULE-$VERSION.tar.xz
          SOURCE2=$MODULE-manpages-$VERSION.tar.xz
       SOURCE_URL=http://www.kernel.org/pub/software/scm/git/
      SOURCE2_URL=http://www.kernel.org/pub/software/scm/git/
-      SOURCE_VFY=sha256:f8f546648f77f246f1302e3ec4037c81db25af1f02931597148c5bf61fac2db5
-     SOURCE2_VFY=sha256:4c5c516ee4c0412b9475739e2125a257f6022e7c7bd006827c376fe70d47c323
+      SOURCE_VFY=sha256:c73364ac00ae85ffc6cfb12ca2700bb0edf30f63262be97be4039be594ff29e7
+     SOURCE2_VFY=sha256:3e17997d10ba18f4ad4dcddf58f7175ee78da1514b5afca3a6f198d957d822f9
         WEB_SITE=http://git-scm.com
          ENTERED=20050728
-         UPDATED=20160717
+         UPDATED=20160904
            SHORT="Fast version control system"
 
 cat << EOF

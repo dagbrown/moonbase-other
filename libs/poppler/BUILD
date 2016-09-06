@@ -13,12 +13,13 @@ if in_depends $MODULE qt4; then
   export POPPLER_QT4_TEST_LIBS+=" -L$QTDIR/lib -lQtCore -lQtGui -lQtXml"
 fi &&
 
-  default_build &&
+default_build &&
 
 
 # If in depends we will now build qt5 libs
 if in_depends $MODULE qt5; then
   devoke_installwatch &&
+  CXXFLAGS+=" --std=c++11" &&
   . /etc/profile.d/qt5.rc &&
   OPTS+=" --enable-poppler-qt5 --disable-poppler-qt4" &&
   default_build

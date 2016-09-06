@@ -1,0 +1,15 @@
+          MODULE=beautifulsoup4
+         VERSION=4.5.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://www.crummy.com/software/BeautifulSoup/bs4/download/${VERSION%.*}/
+      SOURCE_VFY=sha256:3c9474036afda9136aac6463def733f81017bf9ef3510d25634f335b0c87f5e1
+        WEB_SITE=http://www.crummy.com/software/BeautifulSoup/
+         ENTERED=20070610
+         UPDATED=20160810
+           SHORT="HTML/XML parser for quick-turnaround applications"
+
+cat << EOF
+Beautiful Soup parses arbitrarily invalid SGML and provides a variety
+of methods and Pythonic idioms for iterating and searching the parse
+tree.
+EOF

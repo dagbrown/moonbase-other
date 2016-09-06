@@ -1,12 +1,12 @@
           MODULE=erlang
-         VERSION=19.0
+         VERSION=19.0.5
           SOURCE=OTP-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/otp-OTP-$VERSION
       SOURCE_URL=http://github.com/erlang/otp/archive/
-      SOURCE_VFY=sha256:107b629aa7aea1bf76df0197629a50ce4fea61143ebb0e9a1b633b1fbaf9beb7
+      SOURCE_VFY=sha256:1cf9e6e9519b7191607f37045a7660bb0c70c285bb591dd2b3fca62e06403540
         WEB_SITE=http://www.erlang.org
          ENTERED=20021120
-         UPDATED=20160623
+         UPDATED=20160820
            SHORT="General-purpose programming language and runtime environment"
 
 cat << EOF
