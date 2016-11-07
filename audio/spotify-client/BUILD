@@ -1,12 +1,7 @@
-
-cd $SOURCE_DIRECTORY/opt/spotify/spotify-client &&
-./linklibs-fedora.sh &&
-./linklibs.sh &&
-find . -maxdepth 1 -type l | xargs -i cp -P {} Data/ &&
+cd $SOURCE_DIRECTORY/usr/share/spotify &&
+ln -sf /usr/lib/libssl.so libssl.so.1.0.0 &&
+ln -sf /usr/lib/libcrypto.so libcrypto.so.1.0.0 &&
+rm -f $SOURCE_DIRECTORY/usr/bin/spotify &&
 prepare_install &&
-install -d -m 0755 /usr/libexec/spotify-client &&
-install -d -m 0755 /usr/share/doc/spotify-client &&
-cp -r $SOURCE_DIRECTORY/opt/spotify/spotify-client/* /usr/libexec/spotify-client/ &&
-ln -s /usr/libexec/spotify-client/spotify /usr/bin/spotify &&
-ln -s /usr/lib/libudev.so /usr/libexec/spotify-client/libudev.so.0 &&
-cp $SOURCE_DIRECTORY/usr/share/doc/spotify-client/copyright /usr/share/doc/spotify-client/
+cp -rfv --remove-destination $SOURCE_DIRECTORY/usr / &&
+install -m0755 $SCRIPT_DIRECTORY/spotify /usr/bin/spotify

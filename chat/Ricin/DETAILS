@@ -1,11 +1,11 @@
           MODULE=Ricin
-         VERSION=0.2.4
+         VERSION=0.2.6
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=http://github.com/RicinApp/Ricin/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:b394e4b076e89d4e5a6de0588dded434273eb2a5d982d6f0c5f55d38eaa9a25a
+      SOURCE_VFY=sha256:8dbee6f8413135a2709ad5641eb0707b6ea84e64d7d85e01f3f016d54ffd6487
         WEB_SITE=http://ricin.im/
          ENTERED=20160525
-         UPDATED=20161012
+         UPDATED=20161102
            SHORT="A dead-simple but powerful Tox client"
 
 cat << EOF
