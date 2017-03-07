@@ -5,4 +5,3 @@ patch_it $SOURCE2 1 &&
 
 # Boost fix
 patch_it $SOURCE3 1
-

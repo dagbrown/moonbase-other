@@ -1,11 +1,11 @@
           MODULE=libarchive
-         VERSION=3.2.2
+         VERSION=3.3.1
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://libarchive.org/downloads
-      SOURCE_VFY=sha256:691c194ee132d1f0f7a42541f091db811bc2e56f7107e9121be2bc8c04f1060f
+      SOURCE_VFY=sha256:29ca5bd1624ca5a007aa57e16080262ab4379dbf8797f5c52f7ea74a3b0424e7
         WEB_SITE=http://libarchive.org
          ENTERED=20080124
-         UPDATED=20161030
+         UPDATED=20170226
            SHORT="create and read several different streaming archive formats"
 
 cat << EOF
