@@ -1,0 +1,25 @@
+          MODULE=icc_examin
+         VERSION=0.55
+          SOURCE=$MODULE-$VERSION.tar.bz2
+         SOURCE2=icc_examin-configure.patch
+      SOURCE_URL=$SFORGE_URL/oyranos
+     SOURCE2_URL=https://raw.github.com/pld-linux/icc_examin/master/
+      SOURCE_VFY=sha256:e44fe003e5aa7bd70a5b137c094a3047b356755be376977a1aa402c65d0ba2fc
+     SOURCE2_VFY=sha256:a2f703e126bfedf86cfed6e63ac6abd41b7790b23d2d20fa744daf29c298e593
+        WEB_SITE=http://www.oyranos.org/icc-examin/
+         ENTERED=20090412
+         UPDATED=20140721
+           SHORT="A colour management utility"
+
+cat << EOF
+ICC Examin is a colour management utility. (Unix name: iccexamin).
+Features:
+    * shows the internals of a ICC profile, like text, curves, 3D tables,
+      colour coordinates
+    * covers most of the ICC standard v2 tags plus some of version 4
+    * produces a profile quality report; as table or 3D view
+    * accepts measurement data (CGATS); visible as plain text or in 3D
+    * creates and accepts argylls gamut visualisations; vrml
+    * understands video card gamma tables (Xorg/XFree86/osX)
+    * accepts ICC named colour swatches (ncl2); shows as table or 3D
+EOF

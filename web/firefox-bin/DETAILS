@@ -1,11 +1,11 @@
           MODULE=firefox-bin
-         VERSION=52.0
+         VERSION=52.0.2
           SOURCE=firefox-$VERSION.tar.bz2
       SOURCE_URL=http://download-installer.cdn.mozilla.net/pub/firefox/releases/$VERSION/linux-i686/en-US
-      SOURCE_VFY=sha256:93b42d34ebc97c2d5e7ef81e2bc9121cec80c38bf6c3f7fbeff6201619417437
+      SOURCE_VFY=sha256:489a029538f8980458e49d7128d4791443038a6f150cfee472b59c7d04867f12
         WEB_SITE=http://www.mozilla.org/projects/firefox
          ENTERED=20091207
-         UPDATED=20170307
+         UPDATED=20170328
          ARCHIVE=off
            SHORT="A speedy, full-featured web browser"
 
