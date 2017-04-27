@@ -1,3 +1,5 @@
+autoreconf -vi &&
+
 OPTS+=" --with-lib-preference=system \
         --with-libsndfile=system \
         --with-expat=system \
@@ -7,8 +9,8 @@ OPTS+=" --with-lib-preference=system \
         --with-libsoxr=system \
         --with-portaudio=local \
         --with-widgetextra=local \
-        --with-portmixer"
-
-export WX_CONFIG=/usr/bin/wx-config-2.8
+        --with-midi=local \
+        --enable-nyquist=local \
+        --with-portmixer" &&
 
 default_build
