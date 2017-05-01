@@ -1,7 +1,7 @@
+depends ImageMagick
 depends desktop-file-utils
 depends gtk+-3
 depends libnotify4
-depends webkitgtk3
 depends pycairo
 depends beautifulsoup4
 depends pygobject2
@@ -10,4 +10,5 @@ depends pycurl
 depends Pillow
 depends pyexiv2
 depends httplib2
+depends requests
 depends python-distutils-extra
