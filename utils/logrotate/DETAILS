@@ -1,11 +1,11 @@
           MODULE=logrotate
-         VERSION=3.11.0
+         VERSION=3.12.2
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://github.com/logrotate/logrotate/releases/download/$VERSION/
-      SOURCE_VFY=sha256:
+      SOURCE_VFY=sha256:754777ada2ef2f34378e8f6025cdb0c0725e212f12195d59971c42df0ae0597f
         WEB_SITE=http://github.com/logrotate/logrotate/
          ENTERED=20021231
-         UPDATED=20161206
+         UPDATED=20170504
            SHORT="Automatic rotation, compression and removal of log files"
 
 cat << EOF
