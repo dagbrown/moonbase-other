@@ -3,16 +3,16 @@
 # should version bump to x.y.(z-1)-(highest). That version is always
 # kept on the ftp.imagemagick.org site and should be considered STABLE!!!
           MODULE=ImageMagick
-         VERSION=6.9.8-6
+         VERSION=6.9.8-8
           SOURCE=$MODULE-$VERSION.tar.xz
    SOURCE_URL[0]=http://www.imagemagick.org/download/
    SOURCE_URL[1]=http://mirrors-usa.go-parts.com/mirrors/$MODULE
    SOURCE_URL[2]=ftp://ftp.nluug.nl/pub/$MODULE
    SOURCE_URL[3]=ftp://gd.tuwien.ac.at/pub/graphics/$MODULE
-      SOURCE_VFY=sha256:dc587a30457d1b42fa980fe7d94bfad906407ad811335e60f5eb673b3a17afeb
+      SOURCE_VFY=sha256:0b590b1389ed7c535316425c96e07d8488fd7e72b4bf17e950517bf016dd5fcb
       WEB_SITE=http://www.imagemagick.org
          ENTERED=20010922
-         UPDATED=20170520
+         UPDATED=20170530
            SHORT="Automated and interactive manipulation of images"
 
 cat << EOF
