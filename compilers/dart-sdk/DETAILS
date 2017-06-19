@@ -1,12 +1,12 @@
           MODULE=dart-sdk
-         VERSION=1.23.0
+         VERSION=1.24.1
           SOURCE=dartsdk-linux-ia32-release.zip
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE
       SOURCE_URL=http://storage.googleapis.com/dart-archive/channels/stable/release/latest/sdk/
-      SOURCE_VFY=sha256:2add504a7b4b8de2dad151e86894c17f04abb31eaa2fb475cf00d4ad1281a6e6
+      SOURCE_VFY=sha256:c0a041baa98019a9f303de149ce4d6e7b5c25e211609898496c0d574f186f96b
         WEB_SITE=http://dartlang.org/
          ENTERED=20141023
-         UPDATED=20170426
+         UPDATED=20170618
            SHORT="The dart programming language SDK"
 
 cat <<EOF
