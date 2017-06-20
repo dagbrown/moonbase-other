@@ -3,3 +3,6 @@
 
 # currently broken
 #optional_depends libffi "--with-system-libffi" "--without-system-libffi" "use system libffi"
+
+
+depends sphinxcontrib-websupport typing certifi urllib3 idna
