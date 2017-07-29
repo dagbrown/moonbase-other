@@ -1,11 +1,11 @@
           MODULE=faac
-         VERSION=1.28
+         VERSION=1.29.3
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=$SFORGE_URL/faac/
-      SOURCE_VFY=sha256:c5141199f4cfb17d749c36ba8cfe4b25f838da67c22f0fec40228b6b9c3d19df
+      SOURCE_VFY=sha256:cef2897843baf366983ad29f471cd1c4dcc95762b86d283a925514bcc5cf5a3f
         WEB_SITE=http://www.audiocoding.com/
          ENTERED=20050308
-         UPDATED=20080418
+         UPDATED=20170728
            SHORT="ISO AAC audio encoder"
 
 cat << EOF
