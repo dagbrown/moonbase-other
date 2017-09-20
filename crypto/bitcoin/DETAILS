@@ -1,11 +1,11 @@
           MODULE=bitcoin
-         VERSION=0.14.2
+         VERSION=0.15.0.1
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=http://github.com/bitcoin/bitcoin/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:e0ac23f01a953fcc6290c96799deeffb32aa76ca8e216c564d20c18e75a25219
+      SOURCE_VFY=sha256:a2d28632be6918ce23d2fd589f0aecbb2a90579c9345f47fdfe1e77ec31f023e
         WEB_SITE=http://bitcoin.org
          ENTERED=20120820
-         UPDATED=20170616
+         UPDATED=20170916
            SHORT="Bitcoin peer-to-peer client"
 
 cat << EOF
