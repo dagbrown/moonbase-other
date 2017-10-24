@@ -1,11 +1,11 @@
           MODULE=lighttpd
-         VERSION=1.4.45
+         VERSION=1.4.47
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=http://download.lighttpd.net/$MODULE/releases-1.4.x/
-      SOURCE_VFY=sha256:1c97225deea33eefba6d4158c2cef27913d47553263516bbe9d2e2760fc43a3f
+      SOURCE_VFY=sha256:e47e64a9cc2b824c45792a6b1a5542945956e77ede3454845f42548495946c1c
         WEB_SITE=http://www.lighttpd.net
          ENTERED=20060416
-         UPDATED=20170114
+         UPDATED=20171023
            SHORT="A small httpd with some really good marketing"
 
 cat << EOF
