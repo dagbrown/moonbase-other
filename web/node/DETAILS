@@ -1,11 +1,11 @@
           MODULE=node
-         VERSION=8.8.1
+         VERSION=9.2.0
           SOURCE=node-$VERSION.tar.gz
  SOURCE_URL_FULL=http://github.com/nodejs/node/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:c32ffc0938abb19f034aabebd56557e005dbca7654d2ebd6c74c4b976f82a7a0
+      SOURCE_VFY=sha256:f2cb9311743071943a9b35f620318d8b5d4c7a3eb4fdaa04e4abd07f3cc67822
          WEB_SITE=http://nodejs.org/
          ENTERED=20140419
-         UPDATED=20171026
+         UPDATED=20171115
            SHORT="Evented I/O for V8 javascript"
 
 cat << EOF
