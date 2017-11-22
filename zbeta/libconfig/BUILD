@@ -1,6 +1,8 @@
 OPTS+=" --disable-static" &&
 
-rm lib/scanner.c &&
+autoreconf -vi &&
 
-default_build
+default_build &&
+
+ rm /usr/share/info/dir
 
