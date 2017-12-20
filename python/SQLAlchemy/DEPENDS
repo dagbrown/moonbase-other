@@ -1,4 +1,3 @@
-depends setuptools
+depends six
 
-optional_depends Python "" "" "for support of Python2"
 optional_depends psycopg2 "" "" "connect to PostgreSQL databases"

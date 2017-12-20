@@ -1,4 +1,4 @@
 depends zope.interface
+depends six
 depends pyopenssl
 depends pycrypto
-depends setuptools

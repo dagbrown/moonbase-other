@@ -1,7 +1,7 @@
 prepare_install &&
 
 # Do Python2 build
-if in_depends $MODULE Python; then
+if module_installed setuptools; then
   python ./setup.py build &&
 
   pushd pycparser &&
