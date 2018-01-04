@@ -1,7 +1,8 @@
-default_config &&
-
-make ${MAKES:+-j${MAKES}} &&
-
+python3 setup.py build &&
 prepare_install &&
+python3 setup.py install --root=/
 
-python setup.py install
+if module_installed setuptools; then
+  python setup.py build &&
+  python setup.py install --root=/
+fi
