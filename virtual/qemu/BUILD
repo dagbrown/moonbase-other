@@ -3,7 +3,6 @@ export ARFLAGS=rv
 
 CFLAGS+=" -fPIC"
 
-OPTS+=" --libexecdir=/usr/lib/qemu" &&
 OPTS+=" --target-list=$(echo $TARGETLIST | sed s/\ /,/g)" &&
 
 AUDIO_LIST="oss" &&
@@ -18,7 +17,6 @@ add_priv_user qemu:qemu -G kvm &&
 ./configure --prefix=/usr \
             --sysconfdir=/etc \
             --localstatedir=/var \
-            --libexecdir=/usr/lib/$MODULE \
             --audio-drv-list="$AUDIO_LIST" \
             --enable-attr \
             --enable-modules \
@@ -37,7 +35,7 @@ else
 fi &&
 
 # bridge_helper needs suid
-chmod u+s "/usr/lib/qemu/qemu-bridge-helper" &&
+chmod u+s "/usr/libexec/qemu-bridge-helper" &&
 
 # qemu-doc.html may not exist, but it will be ignored if that is the case
 gather_docs TODO qemu-doc.html
