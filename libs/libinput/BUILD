@@ -1,8 +1,6 @@
-OPTS+=" --prefix /usr"
+OPTS+=" --prefix=/usr \
+        -Dtests=false"
 
-meson build -Dtests=false $OPTS &&
-ninja -C build &&
-
+meson build $OPTS &&
 prepare_install &&
-
 ninja -C build install
