@@ -1,5 +1,5 @@
           MODULE=qemu
-         VERSION=2.11.0
+         VERSION=2.11.1
           SOURCE=$MODULE-$VERSION.tar.bz2
          SOURCE2=$MODULE-memfd.patch
          SOURCE3=$MODULE-cpp.patch
@@ -11,7 +11,7 @@
      SOURCE3_VFY=sha256:024bc81085f8e264f2c77ae5972cb8e3cab107182a5914601795a2ea38448b1c
         WEB_SITE=http://wiki.qemu.org/Index.html
          ENTERED=20040318
-         UPDATED=20171214
+         UPDATED=20180215
            SHORT="A fast processor emulator"
       MAINTAINER=tchan@lunar-linux.org
 

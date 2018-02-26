@@ -36,7 +36,6 @@ optional_depends tiff \
                  "-DENABLE_LIBTIFF=OFF" \
                  "for TIFF image support"
 
-
 optional_depends lcms2 \
                  "-DENABLE_CMS=lcms2" \
                  "-DENABLE_CMS=none" \
@@ -46,11 +45,6 @@ optional_depends cairo \
                  "-DENABLE_GLIB=ON" \
                  "-DENABLE_GLIB=OFF" \
                  "for the cairo graphics backend"
-
-optional_depends qt4 \
-                 "-DENABLE_QT4=ON" \
-                 "-DENABLE_QT4=OFF" \
-                 "for Qt4 wrapper support"
 
 optional_depends qt5 \
                  "-DENABLE_QT5=ON" \
