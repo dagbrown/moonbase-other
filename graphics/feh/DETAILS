@@ -1,11 +1,11 @@
           MODULE=feh
-         VERSION=2.23.2
+         VERSION=2.25
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://feh.finalrewind.org/
-      SOURCE_VFY=sha256:96c131a558fd86d9a83862abfabbfc7c081b8a4d5c9d56598e04905a21ec89c3
+      SOURCE_VFY=sha256:063bec0138103cf5c52594c6ffe8946d6c48cf5a664f03634634010b46e45980
         WEB_SITE=http://feh.finalrewind.org/
          ENTERED=20011101
-         UPDATED=20180213
+         UPDATED=20180305
            SHORT="A fast, lightweight image viewer which uses imlib2"
 
 cat << EOF
