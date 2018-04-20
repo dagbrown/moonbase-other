@@ -1,7 +1,5 @@
 default_pre_build &&
 
-#patch_it $SOURCE2 1 &&
-
 if in_depends $MODULE qt5 ; then
   . /etc/profile.d/qt5.rc &&
   OPTS+=" -DPARAVIEW_QT_VERSION=5 -DVTK_QT_VERSION=5 -DQT_QMAKE_EXECUTABLE=/usr/lib/qt5/bin/qmake -DVTK_Group_Qt=1"
@@ -11,6 +9,8 @@ fi &&
 #OPTS+=" -DUSE_EXTERNAL_VTK=1" &&
 # Doesn't like out version of gl2ps and as of version 5.5.0 still the case
 #        -DVTK_USE_SYSTEM_GL2PS=1               \
+# Need to specify pygments here else it use included pygments thus
+# stomping on system pygments. Have the same clobber with protobuf.
 
 OPTS+=" -DPARAVIEW_ENABLE_XDMF3=1              \
         -DVTK_USE_SYSTEM_ZLIB=1                \
@@ -24,6 +24,8 @@ OPTS+=" -DPARAVIEW_ENABLE_XDMF3=1              \
         -DVTK_USE_SYSTEM_JSONCPP=1             \
         -DVTK_USE_SYSTEM_EXPAT=1               \
         -DVTK_USE_SYSTEM_OGGTHEORA=1           \
+        -DVTK_USE_SYSTEM_PYGMENTS=1            \
+        -DVTK_USE_SYSTEM_PROTOBUF=1            \
         -DBUILD_SHARED_LIBS=1                  \
         -DVTK_Group_StandAlone=1               \
         -DVTK_RENDERING_BACKEND=OpenGL2        \
