@@ -1,11 +1,11 @@
           MODULE=libuv
-         VERSION=1.20.0
+         VERSION=1.20.2
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://github.com/libuv/libuv/archive/v$VERSION/
-      SOURCE_VFY=sha256:6d36f18f556cc288813032a168fd9181b45d9e66e3e18e54a8dbdfd8ea3c3dba
+      SOURCE_VFY=sha256:a5e62a6ed3c25a712477b55ce923e7f49af95b80319f88b9c950200d65427793
         WEB_SITE=http://libuv.org/
          ENTERED=20140419
-         UPDATED=20180404
+         UPDATED=20180425
            SHORT="Cross-platform asychronous I/O library"
 
 cat << EOF
