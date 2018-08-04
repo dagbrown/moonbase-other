@@ -5,8 +5,9 @@ SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-REL_${VERSION//./_}
  SOURCE_URL_FULL=http://github.com/pycurl/pycurl/archive/REL_${VERSION//./_}.tar.gz
       SOURCE_VFY=sha256:5f8e3365b65726d8b4e00119aa4a49f96a8ca837de5f8b4fa2172d40e1693ff6
         WEB_SITE=http://pycurl.sourceforge.net/
+            TYPE=python3
          ENTERED=20100502
-         UPDATED=20171208
+         UPDATED=20180802
            SHORT="Python interface to libcurl"
 
 cat <<EOF
