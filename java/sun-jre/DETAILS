@@ -1,7 +1,7 @@
           MODULE=sun-jre
          VERSION=8u181
         FVERSION=$VERSION-b13
-        DVERSION=1.8.0_162
+        DVERSION=1.8.0_181
             HASH=96a7b8442fe848ef90c96a2fad6ed6d1
      JRE_ARCHIVE=jre-$VERSION-linux-i586.tar.gz
       JCE_POLICY=jce_policy-8.zip
