@@ -12,7 +12,7 @@
      SOURCE3_VFY=sha256:c80d509006002fa93eb9deee8d75176c7a97eb3be4106a13153ddd11ac55747d
         WEB_SITE=http://www.snort.org
          ENTERED=20011022
-         UPDATED=20180120
+         UPDATED=20181201
            SHORT="Lightweight network intrustion detection program"
 
 cat << EOF
