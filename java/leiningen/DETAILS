@@ -1,11 +1,11 @@
           MODULE=leiningen
-         VERSION=2.8.1
+         VERSION=2.8.3
           SOURCE=lein
  SOURCE_URL_FULL=http://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
-      SOURCE_VFY=sha256:b7f9c70341d638022c1c2d74867c50aeb608d2d9e7cd2a94b8f191bf6a9e1a6e
+      SOURCE_VFY=sha256:757a7d2e9e577c495702f56d7fa9f46a8491aace230dabd1ecade25afe7dedb1
         WEB_SITE=http://github.com/technomancy/leiningen/
          ENTERED=20150713
-         UPDATED=20171028
+         UPDATED=20181215
            SHORT="Automate Clojure projects without setting your hair on fire"
 
 cat << EOF
