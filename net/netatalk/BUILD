@@ -1,9 +1,13 @@
+CFLAGS="-Wno-unused-result -O2"
+
 OPTS+=" --with-libevent-header=/usr/include \
-        --with-libevent-lib=/usr/lib  \
-        --with-init-style=systemd \
-        --with-libevent=no \
         --with-cnid-cdb-backend \
+        --with-libevent=no \
         --enable-silent-rules \
-        --enable-pgp-uam" &&
+        --enable-pgp-uam"
+
+if module_installed systemd; then
+  OPTS+=" --with-init-style=systemd"
+fi
 
 default_build
