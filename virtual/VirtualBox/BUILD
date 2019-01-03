@@ -23,7 +23,8 @@ fi &&
 # Disable hardening, so normal users can run it
 OPTS+=" --disable-hardening"
 
-OPTS+=" --disable-kmods"
+OPTS+=" --disable-kmods \
+        --disable-docs"
 
 ./configure $OPTS &&
 source ./env.sh &&

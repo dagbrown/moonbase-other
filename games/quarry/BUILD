@@ -1,3 +1,7 @@
-CFLAGS+=" -std=gnu89" &&
+OPTS+=" --prefix=/usr \
+        --disable-scrollkeeper-update \
+        --disable-mime-database-update" &&
 
-default_build
+./configure $OPTS &&
+make html &&
+default_make
