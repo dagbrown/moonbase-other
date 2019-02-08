@@ -1,13 +1,13 @@
           MODULE=python2-regex
-         VERSION=2019.01.24
+         VERSION=2019.02.06
           SOURCE=regex-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/regex-$VERSION
       SOURCE_URL=https://pypi.io/packages/source/r/regex/
-      SOURCE_VFY=sha256:20b1601b887e1073805adda2f8a09bb4c86dc7629c46c0d7bf28444dcb32920d
+      SOURCE_VFY=sha256:f4661ff902ffa818e49fa67d9b0c19fc44f648a2bca3016ee4b8aae0e369c76e
         WEB_SITE=https://bitbucket.org/mrabarnett/mrab-regex/overview
             TYPE=python2
          ENTERED=20181027
-         UPDATED=20190127
+         UPDATED=20190207
            SHORT="An alternative python regular expression module"
 
 cat << EOF
