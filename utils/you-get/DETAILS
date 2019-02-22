@@ -1,11 +1,11 @@
           MODULE=you-get
-         VERSION=0.4.1148
+         VERSION=0.4.1181
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/soimort/you-get/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:384b19a92660014a5189a17366dde924f3756c9fc6b1c5b12fb35b79ec4f7bde
+      SOURCE_VFY=sha256:f879fe94d727c69eced2104a56844ae93494f891d8f8db5fec4fe05b562d0b38
         WEB_SITE=https://you-get.org
          ENTERED=20160816
-         UPDATED=20180919
+         UPDATED=20181201
            SHORT="A tiny command-line media download utility"
 
 cat << EOF

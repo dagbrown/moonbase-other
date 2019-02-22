@@ -1,13 +1,14 @@
           MODULE=fife
-         VERSION=0.3.5
-          SOURCE=${MODULE}_${VERSION}.tar.gz
-      SOURCE_URL=http://downloads.sourceforge.net/project/fife/active/src/
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/${MODULE}_${VERSION}
-      SOURCE_VFY=sha1:9ca344b7af269fd55af91c68ab30777ec897b6c4
-        WEB_SITE="http://wiki.fifengine.net/"
+         VERSION=0.4.1
+          SOURCE=$MODULE-$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/fifengine/fifengine/archive/$VERSION.tar.gz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/fifengine-$VERSION
+      SOURCE_VFY=sha256:bae3fc591cc2891f7d1b3a656a5d8ad700ecc2e297ad453bf4f1bcbbf82e8cb2
+        WEB_SITE=http://wiki.fifengine.net/
          ENTERED=20130906
-         UPDATED=20130906
-           SHORT="a cross platform game creation framework"
+         UPDATED=20181225
+           SHORT="A cross platform game creation framework"
+
 cat <<EOF
 FIFE stands for Flexible Isometric Free Engine and is a cross platform
 game creation framework. It provides you with the ability to create

@@ -1,11 +1,11 @@
           MODULE=strace
-         VERSION=4.24
+         VERSION=4.26
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://fossies.org/linux/misc/
-      SOURCE_VFY=sha256:9128b75dfe727d7931238ec07fc20f76e03d386951da9806bc6dfdc62354cc63
+      SOURCE_VFY=sha256:8c6a2cd1d0f3b017ea7759e569bfc7f9b285827bd6a6ef6c4d0aa2e17e339872
         WEB_SITE=http://strace.sourceforge.net
          ENTERED=20010922
-         UPDATED=20180816
+         UPDATED=20190101
            SHORT="System call tracing utility (like trace, truss, etc)"
 
 cat << EOF

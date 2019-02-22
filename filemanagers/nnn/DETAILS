@@ -1,12 +1,12 @@
           MODULE=nnn
-         VERSION=v2.0
+         VERSION=v2.2
           SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE
       SOURCE_URL=https://github.com/jarun/nnn/releases/download/$VERSION/
-      SOURCE_VFY=sha256:262c425b4320f1904552389bd0e861599df432d584a17f1199658cf61e25c2ba
+      SOURCE_VFY=sha256:3473001afe8df603e70ea80b73dd71f382a054b05bf7e9648b143e957faf840f
         WEB_SITE=https://github.com/jarun/nnn/
          ENTERED=20180901
-         UPDATED=20181022
+         UPDATED=20190103
            SHORT="The fastest terminal file manager ever written"
 
 cat << EOF

@@ -1,14 +1,14 @@
           MODULE=python-pyparsing
-         VERSION=2.2.2
+         VERSION=2.3.1
           SOURCE=pyparsing_$VERSION.tar.gz
       SOURCE_URL=https://github.com/pyparsing/pyparsing/archive/
-     SOURCE_VFY=sha256:63cdff56a7af7aaf6d66ed0d995c18c5028dc53d0fd9b463972d732bf6d4bac6
+     SOURCE_VFY=sha256:6b4146fb3eb6c4f5798b9f1d67b9609efa106276ac875c534695e55a34409f07
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/pyparsing-pyparsing_$VERSION
         WEB_SITE=http://pyparsing.wikispaces.com/
             TYPE=python3
         REPLACES=pyparsing
          ENTERED=20120727
-         UPDATED=20181002
+         UPDATED=20190114
            SHORT="A general python parsing module"
 
 cat << EOF

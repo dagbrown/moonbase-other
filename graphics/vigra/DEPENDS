@@ -2,7 +2,7 @@ depends zlib
 depends libpng
 depends %JPEG
 depends boost
-depends nose
+depends python-nose
 depends fftw3
 depends tiff
 depends cmake
@@ -15,7 +15,7 @@ optional_depends Sphinx \
 optional_depends openexr \
                  "-DWITH_OPENEXR=ON" \
                  "-DWITH_OPENEXR=OFF" \
-                 "for high dynamic-range support"
+                 "for high dynamic-range support, ${PROBLEM_COLOR}Must say yes if using hugin${DEFAULT_COLOR}"
 
 optional_depends hdf5 \
                  "-DWITH_HDF5=ON" \

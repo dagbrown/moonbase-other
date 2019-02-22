@@ -1,12 +1,12 @@
             MODULE=tcl
-           VERSION=8.6.8
+           VERSION=8.6.9
             SOURCE=$MODULE$VERSION-src.tar.gz
   SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE$VERSION
         SOURCE_URL=$SFORGE_URL/$MODULE
-       SOURCE_VFY=sha256:c43cb0c1518ce42b00e7c8f6eaddd5195c53a98f94adc717234a65cbcfd3f96a
+       SOURCE_VFY=sha256:ad0cd2de2c87b9ba8086b43957a0de3eb2eb565c7159d5f53ccbba3feb915f4e
           WEB_SITE=http://tcl.sourceforge.net
            ENTERED=20010922
-           UPDATED=20171223
+           UPDATED=20181115
              SHORT="Tcl provides a multi-platform scripting environment"
 
 cat << EOF

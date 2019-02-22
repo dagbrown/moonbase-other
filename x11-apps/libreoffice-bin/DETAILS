@@ -1,12 +1,12 @@
           MODULE=libreoffice-bin
-         VERSION=6.1.2
+         VERSION=6.2.0
           SOURCE=LibreOffice_${VERSION}_Linux_x86_rpm.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION.2
       SOURCE_URL=http://download.documentfoundation.org/libreoffice/stable/$VERSION/rpm/x86
-      SOURCE_VFY=sha256:8e58cd9b827a6202c525ed502c4c2db411abdfa12a2d5fd81e6b3fbab06b5612
+      SOURCE_VFY=sha256:8a3801162624c5d659cd44f98df82908aa45c18e938d466d2c3dbd3124a4dd9e
         WEB_SITE=http://www.libreoffice.org
          ENTERED=20110330
-         UPDATED=20180927
+         UPDATED=20190207
            SHORT="The open office suite for unix"
 
 LDD_CHECK=off
@@ -14,7 +14,7 @@ ARCHIVE=off
 
 cat << EOF
 LibreOffice is the free power-packed Open Source personal productivity suite for
-Windows, Macintosh and Linux, that gives you six feature-rich applications for 
-all your document production and data processing needs: Writer, Calc, Impress, 
+Windows, Macintosh and Linux, that gives you six feature-rich applications for
+all your document production and data processing needs: Writer, Calc, Impress,
 Draw, Math and Base.
 EOF

@@ -1,11 +1,11 @@
          MODULE=mkvtoolnix
-        VERSION=28.0.0
+        VERSION=30.1.0
          SOURCE=$MODULE-$VERSION.tar.xz
      SOURCE_URL=http://www.bunkus.org/videotools/$MODULE/sources
-     SOURCE_VFY=sha256:17a6acbc1468aaa9534b284ec73b6215c145de8472a9944f3dd58d0db272d235
+     SOURCE_VFY=sha256:4628f40d62d359edb1441c52381b1f3a61aa227279133d7e01257f91e0d92591
        WEB_SITE=http://www.bunkus.org/videotools/mkvtoolnix
         ENTERED=20031113
-        UPDATED=20181022
+        UPDATED=20190106
           SHORT="Tools for using Matroska audio/video container files"
 
 cat << EOF

@@ -1,5 +1,3 @@
-autoreconf -fi &&
-
 mkdir -p /etc/bluetooth &&
 
 if module_installed systemd; then
@@ -8,10 +6,14 @@ else
   OPTS+=" --disable-systemd"
 fi
 
-OPTS+=" --enable-threads --enable-tools --enable-library"
+OPTS+=" --enable-tools \
+        --enable-library \
+        --enable-threads \
+        --enable-sixaxis"
 
 default_build &&
 
+mkdir -p /etc/bluetooth &&
 install -Dm644 profiles/*/*.conf /etc/bluetooth/ &&
 install -Dm644 src/main.conf /etc/bluetooth/ &&
 

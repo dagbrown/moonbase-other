@@ -1,11 +1,11 @@
             MODULE=acpica-unix
-           VERSION=20181003
+           VERSION=20190215
             SOURCE=$MODULE-$VERSION.tar.gz
         SOURCE_URL=https://acpica.org/sites/acpica/files/
-        SOURCE_VFY=sha256:4c40014ef582665f87e4278f34a60b725bc99cb94341c900621780d6d5a708d1
+        SOURCE_VFY=sha256:71133ab2b1b2e2f176a9b5081060571977a3d2c91b36722e198bffa7ce9b0d37
           WEB_SITE=http://www.acpica.org
            ENTERED=20071004
-           UPDATED=20181003
+           UPDATED=20190218
            LICENSE="other"
              SHORT="Intel ACPI build environment"
              PSAFE=no
@@ -13,7 +13,10 @@
 cat << EOF
 Advanced Configuration & Power Interface Component Architecture (ACPI CA)
 provides a reference implementation of software components that enable OS
-support for interfaces defined in the ACPI 1.0b specification. This includes:
-AML interpreter and debugger, Namespace Management, ACPI hardware support, and
-basic OSPM, including a device power management framework.
+support for interfaces defined in the ACPI 1.0b specification.
+This includes:
+   AML interpreter and debugger
+   Namespace Management
+   ACPI hardware support
+   basic OSPM, including a device power management framework.
 EOF

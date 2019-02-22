@@ -1,13 +1,14 @@
           MODULE=fortune
-         VERSION=mod-1.99.1
+         VERSION=mod-2.6.2
           SOURCE=$MODULE-$VERSION.tar.gz
-   SOURCE_URL[0]=http://www.redellipse.net/code/downloads/
-   SOURCE_URL[1]=https://sources.archlinux.org/other/fortune-mod/
-      SOURCE_VFY=sha1:53aa354025094d7c0e544bb1662714815fa63918
+   SOURCE_URL=https://github.com/shlomif/fortune-mod/archive/
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/${MODULE}-mod-${MODULE}-${VERSION}
+      SOURCE_VFY=shas256:89223bb649ea62b030527f181539182d6a17a1a43b0cc499a52732b839f7b691
         WEB_SITE=http://www.redellipse.net/code/fortune
          ENTERED=20011116
-         UPDATED=20150408
-           SHORT="program which randomly pulls quotations from a large database."
+         UPDATED=20190124
+           SHORT="The Fortune Cookie Program"
+
 cat << EOF
 Fortune is a program which randomly pulls quotations from a large database
 (16,422 at current count). Fortune started out life as a part of NetBSD,

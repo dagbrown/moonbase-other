@@ -1,11 +1,11 @@
           MODULE=python-dateutil
-         VERSION=2.7.3
+         VERSION=2.8.0
           SOURCE=$MODULE-$VERSION.tar.gz
-      SOURCE_URL=https://files.pythonhosted.org/packages/a0/b0/a4e3241d2dee665fea11baec21389aec6886655cd4db7647ddf96c3fad15
-      SOURCE_VFY=sha256:e27001de32f627c22380a688bcc43ce83504a7bc5da472209b4c70f02829f0b8
+ SOURCE_URL_FULL=https://files.pythonhosted.org/packages/source/${MODULE:0:1}/$MODULE/
+      SOURCE_VFY=sha256:c89805f6f4d64db21ed966fda138f8a5ed7a4fdbc1a8ee329ce1b74e3c74da9e
         WEB_SITE=https://github.com/dateutil/dateutil/
          ENTERED=20090227
-         UPDATED=20180905
+         UPDATED=20190206
             TYPE=python3
            SHORT="Extensions to the standard datetime module in Python"
 

@@ -1,11 +1,11 @@
           MODULE=ogre
-         VERSION=1.10.11
+         VERSION=1.11.5
           SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/OGRECave/ogre/archive/v1.10.11.tar.gz
-      SOURCE_VFY=sha256:ff2e666201c1dfddee2fe53ba4825f19385eb3b0d4ad8c3872d8084076826d8d
+ SOURCE_URL_FULL=https://github.com/OGRECave/ogre/archive/v$VERSION.tar.gz
+      SOURCE_VFY=sha256:fadcedf2e58c27f92b94342903c89dad06d0ee93998f5043994ac4ed45ab81da
         WEB_SITE=http://www.ogre3d.org/about
          ENTERED=20111130
-         UPDATED=20180810
+         UPDATED=20181229
            SHORT="Object-Oriented Graphics Rendering Engine"
 
 cat << EOF

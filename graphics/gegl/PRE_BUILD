@@ -1,3 +1,5 @@
 default_pre_build &&
 
-./autogen.sh
+autoreconf --force --install --verbose &&
+
+OPTS+=" --disable-docs"

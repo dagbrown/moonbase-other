@@ -4,6 +4,8 @@ rm m4/lt* m4/libtool.m4 &&
 
 export CXXFLAGS+=" -std=c++11" &&
 
+sedit 's|-Werror-implicit-function-declaration||g' configure.ac &&
+
 if in_depends $MODULE lua; then
   sedit 's:<vlc_demux.h>:<vlc_demux.h>\n #define LUA_COMPAT_APIINTCASTS:' modules/lua/vlc.h &&
   export LUA_LIBS+=" `pkg-config --libs lua`" &&
@@ -16,7 +18,7 @@ if in_depends $MODULE samba; then
 fi &&
 
 if module_installed live555; then
-  CPPFLAGS_live555="-I/usr/lib/liveMedia -I/usr/lib/groupsock -I/usr/lib/BasicUsageEnvironment -I/usr/lib/UsageEnvironment"
+  CPPFLAGS_live555="-I/usr/lib/libliveMedia -I/usr/lib/libgroupsock -I/usr/lib/libBasicUsageEnvironment -I/usr/lib/libUsageEnvironment"
 fi &&
 
 if in_depends $MODULE qt5; then
@@ -26,10 +28,6 @@ if in_depends $MODULE qt5; then
  export UIC=/usr/lib/qt5/bin/uic
 fi &&
 
-if in_depends $MODULE opencv-3 ; then
- export LDFLAGS+=" -L/usr/share/OpenCV/3rdparty/lib/"
-fi &&
-
 if in_depends $MODULE freerdp ; then
   export FREERDP_CFLAGS+=" -I/usr/include/freerdp2/ -I/usr/include/winpr2" &&
   export FREERDP_LIBS+=" -L/usr/lib64 -lfreerdp2"
@@ -37,8 +35,10 @@ fi &&
 
 sedit 's:truetype/ttf-dejavu:TTF:g' modules/visualization/projectm.cpp &&
 
-sedit 's|-Werror-implicit-function-declaration||g' configure.ac &&
 # Add a needed qt5 include
 sedit 's:#include <QString>:#include <QButtonGroup>\n#include <QString>:' modules/gui/qt/components/simple_preferences.cpp &&
+
+# libplacebo 0.6 API
+sedit 's|pl_shader_alloc(tc->pl_ctx, NULL, 0, 0);|pl_shader_alloc(tc->pl_ctx, NULL, 0);|' modules/video_output/opengl/vout_helper.c &&
 
 autoreconf -fi

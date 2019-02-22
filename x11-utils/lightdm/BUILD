@@ -1,9 +1,8 @@
 export MOC5="/usr/lib/qt5/bin/moc"
-export MOC4="/usr/lib/qt4/bin/moc"
 
 OPTS+=" --disable-static \
         --disable-tests  \
-        --with-greeter-user=lightdm" 
+        --with-greeter-user=lightdm"
 
 #        --with-greeter-session=lightdm-gtk-greeter"
 
@@ -21,7 +20,4 @@ install -m0755 $SCRIPT_DIRECTORY/Xsession /etc/lightdm/
 
 # PolicyKit
 install -dm 750 -g 102 /usr/share/polkit-1/rules.d &&
-install -m 644 $SCRIPT_DIRECTORY/lightdm.rules /usr/share/polkit-1/rules.d/lightdm.rules &&
-
-# clean the mess
-rm -fR /C
+install -m 644 $SCRIPT_DIRECTORY/lightdm.rules /usr/share/polkit-1/rules.d/lightdm.rules

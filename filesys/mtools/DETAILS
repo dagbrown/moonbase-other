@@ -1,11 +1,11 @@
           MODULE=mtools
-         VERSION=4.0.19
+         VERSION=4.0.23
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=ftp://ftp.gnu.org/gnu/mtools/
-      SOURCE_VFY=sha256:1bc197199ea1c2c317f597879486eeb817f3199b526d94cc6841624768d910df
+      SOURCE_VFY=sha256:f188db26751aeb5692a79b2380b440ecc05fd1848a52f869d7ca1193f2ef8ee3
         WEB_SITE=https://www.gnu.org/software/mtools/
          ENTERED=20010922
-         UPDATED=20181007
+         UPDATED=20181214
            SHORT="Utilities to access MS-DOS disks without mounting them"
 
 cat << EOF

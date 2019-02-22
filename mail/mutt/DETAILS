@@ -1,11 +1,11 @@
           MODULE=mutt
-         VERSION=1.10.1
+         VERSION=1.11.3
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://ftp.mutt.org/pub/mutt/
-      SOURCE_VFY=sha256:734a3883158ec3d180cf6538d8bd7f685ce641d2cdef657aa0038f76e79a54a0
+      SOURCE_VFY=sha256:a542f4c02faecd171b4215ddbd368910faee4a634cca7aea5337586118ab1941
         WEB_SITE=http://www.mutt.org/
          ENTERED=20010922
-         UPDATED=20180717
+         UPDATED=20190202
            SHORT="A text-based MIME Email client"
 
 cat << EOF

@@ -7,7 +7,7 @@ SOURCE_DIRECTORY=$BUILD_DIRECTORY/wcwidth-$VERSION
         WEB_SITE=https://pypi.org/project/wcwidth/
             TYPE=python3
          ENTERED=20180805
-         UPDATED=20180805
+         UPDATED=20181120
            SHORT="Measures number of Terminal column cells of wide-character codes"
 
 cat << EOF

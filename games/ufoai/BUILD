@@ -1,12 +1,19 @@
 # configure is a bit 'special'
-./configure  --prefix=/usr                  \
-             --bindir=/usr/games            \
-             --libdir=/usr/lib              \
-             --datadir=/usr/share/games/ufoai \
-             --localedir=/usr/share/games/ufoai/base/i18n  \
-             --enable-release               \
-             --disable-testall              \
-             $OPTS                         &&
+
+OPTS+=" --disable-dependency-tracking \
+	--disable-paranoid \
+	--disable-memory \
+	--disable-ufomodel \
+	--disable-ufoslicer"
+
+./configure --prefix=/usr \
+            --bindir=/usr/games \
+            --libdir=/usr/lib \
+            --datadir=/usr/share/games/ufoai \
+            --localedir=/usr/share/games/ufoai/base/i18n \
+            --enable-release \
+            --disable-testall \
+            $OPTS &&
 
 default_make &&
 

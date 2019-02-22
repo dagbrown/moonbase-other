@@ -1,11 +1,11 @@
           MODULE=netdata
-         VERSION=1.10.0
-          SOURCE=$MODULE-$VERSION.tar.xz
-      SOURCE_URL=http://github.com/firehol/netdata/releases/download/v$VERSION/
-      SOURCE_VFY=sha256:0514fc002c5c5fb730156b3fe928965b22327833c6c17e22b7097eda657e77a2
+         VERSION=v1.12.0
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://github.com/firehol/netdata/releases/download/$VERSION/
+      SOURCE_VFY=sha256:8a7eaf1dc6843b46e6eb777fb75459c3be62b0e089b39bdcefd2058a430bf233
         WEB_SITE=http://github.com/firehol/netdata/
          ENTERED=20160620
-         UPDATED=20180328
+         UPDATED=20190217
            SHORT="Detailed real-time performance monitoring over the web"
 
 cat << EOF

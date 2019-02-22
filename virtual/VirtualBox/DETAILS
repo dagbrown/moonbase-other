@@ -1,12 +1,12 @@
           MODULE=VirtualBox
-         VERSION=5.2.18
+         VERSION=6.0.4
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://download.virtualbox.org/virtualbox/$VERSION
-      SOURCE_VFY=sha256:ed0a7efd56c7f39fae79c7ec3321473da412ef0d7914457b66f42679d513efcf
+      SOURCE_VFY=sha256:f80b0c68182c946fb74ada8034960c38159ad91085b153da1277e4f191af6e1f
    MODULE_PREFIX=${VIRTUALBOX_PREFIX:-/usr/lib/virtualbox}
         WEB_SITE=http://virtualbox.org/
          ENTERED=20071004
-         UPDATED=20180815
+         UPDATED=20190128
            SHORT="Full virtualizer for x86 hardware"
 
 cat << EOF

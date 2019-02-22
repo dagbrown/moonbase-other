@@ -1,11 +1,11 @@
           MODULE=gradle
-         VERSION=4.10.2
+         VERSION=5.2.1
           SOURCE=$MODULE-$VERSION-all.zip
       SOURCE_URL=https://services.gradle.org/distributions/
-      SOURCE_VFY=sha256:b7aedd369a26b177147bcb715f8b1fc4fe32b0a6ade0d7fd8ee5ed0c6f731f2c
+      SOURCE_VFY=sha25:9dc729f6dbfbbc4df1692665d301e028976dacac296a126f16148941a9cf012e
         WEB_SITE=https://gradle.org/
          ENTERED=20180307
-         UPDATED=20180924
+         UPDATED=20190220
            SHORT="A powerful build system for the JVM"
 
 cat <<EOF

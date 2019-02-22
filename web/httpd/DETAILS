@@ -1,11 +1,11 @@
           MODULE=httpd
-         VERSION=2.4.35
+         VERSION=2.4.38
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://www.apache.org/dist/httpd/
-      SOURCE_VFY=sha256:2607c6fdd4d12ac3f583127629291e9432b247b782396a563bec5678aae69b56
+      SOURCE_VFY=sha256:7dc65857a994c98370dc4334b260101a7a04be60e6e74a5c57a6dee1bc8f394a
         WEB_SITE=http://www.apache.org
          ENTERED=20020710
-         UPDATED=20180923
+         UPDATED=20190213
            SHORT="A popular HTTP server"
 
 cat << EOF

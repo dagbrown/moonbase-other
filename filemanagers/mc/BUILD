@@ -1,13 +1,14 @@
-OPTS+=" --enable-largefile \
+OPTS+=" --enable-mclib \
         --enable-charset \
         --enable-vfs-tar \
         --enable-vfs-ftp \
         --enable-vfs-sftp \
-        --enable-mclib \
+        --enable-largefile \
         --enable-threads=posix \
         --disable-tests \
+        --with-pic \
         --with-mmap \
-        --with-subshell" &&
+        --with-subshell"
 
 default_build &&
 

@@ -1,11 +1,11 @@
           MODULE=i3
-         VERSION=4.15
+         VERSION=4.16.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://i3wm.org/downloads/
-      SOURCE_VFY=sha256:217d524d1fbc85ae346b25f6848d1b7bcd2c23184ec88d29114bf5a621385326
+      SOURCE_VFY=sha256:ab65c25c06acbdc67cba3ff23e2a82ea17911def65f4fd0200bb6f9382378576
         WEB_SITE=http://i3wm.org/
          ENTERED=20131220
-         UPDATED=20180321
+         UPDATED=20190128
            SHORT="i3 is a tiling window manager"
 PSAFE=no
 

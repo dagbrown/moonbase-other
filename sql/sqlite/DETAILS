@@ -1,12 +1,12 @@
           MODULE=sqlite
-         VERSION=3250200
+         VERSION=3270100
           SOURCE=$MODULE-autoconf-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-autoconf-$VERSION
-      SOURCE_URL=http://www.sqlite.org/2018/
-     SOURCE_VFY=sha256:da9a1484423d524d3ac793af518cdf870c8255d209e369bd6a193e9f9d0e3181
+      SOURCE_URL=http://www.sqlite.org/2019/
+     SOURCE_VFY=sha256:54a92b8ff73ff6181f89b9b0c08949119b99e8cccef93dbef90e852a8b10f4f8
         WEB_SITE=http://www.sqlite.org
          ENTERED=20011016
-         UPDATED=20180926
+         UPDATED=20190108
            SHORT="A SQL engine in a C library"
 
 cat << EOF

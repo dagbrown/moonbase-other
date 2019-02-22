@@ -1,11 +1,11 @@
           MODULE=qpdf
-         VERSION=8.2.1
+         VERSION=8.4.0
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=$SFORGE_URL/$MODULE
-      SOURCE_VFY=sha256:f445d3ebda833fe675b7551378f41fa1971cc6f7a7921bbbb94d3a71a404abc9
+      SOURCE_VFY=sha256:39018f3bff700c68e41f6d44ea9f7842e2a5af200a80b2cdec7fa32a4abac4a0
         WEB_SITE=http://qpdf.sourceforge.net/
          ENTERED=20130202
-         UPDATED=20180819
+         UPDATED=20190203
            SHORT="Structural, content-preserving transformations on PDF files"
 
 cat << EOF

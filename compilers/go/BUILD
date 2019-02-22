@@ -1,4 +1,5 @@
 export GOOS=linux
+export GOCHACHE=off
 export GOROOT=$SOURCE_DIRECTORY
 export GOBIN=$GOROOT/bin
 export GOROOT_FINAL=/usr/lib/go
@@ -16,7 +17,7 @@ case "$(arch)" in
 esac &&
 
 cd src &&
-bash make.bash --no-clean &&
+bash make.bash --no-clean -v &&
 
 $GOROOT/bin/go get -d golang.org/x/tools/cmd/godoc &&
 $GOROOT/bin/go build -o $SOURCE_DIRECTORY/godoc golang.org/x/tools/cmd/godoc &&
@@ -31,17 +32,17 @@ cd $SOURCE_DIRECTORY &&
 
 mkdir -p /usr/{share/go,lib/go/{bin,src,site/src}} &&
 install -Dm0755 godoc /usr/lib/go/bin/godoc &&
-cp -r doc misc /usr/share/go/ &&
+cp -fr doc misc /usr/share/go/ &&
 ln -sf /usr/share/go/doc /usr/lib/go/ &&
-cp -a {bin,pkg}   /usr/lib/go/ &&
-cp -a $GOROOT/src /usr/lib/go/ &&
-cp -a $GOROOT/lib /usr/lib/go/ &&
+cp -fa {bin,pkg}   /usr/lib/go/ &&
+cp -fa $GOROOT/src /usr/lib/go/ &&
+cp -fa $GOROOT/lib /usr/lib/go/ &&
 
 install -Dm0644 src/Make.* /usr/lib/go/src/ &&
 
 # add the symlinks to /usr/bin
 for f in /usr/lib/go/bin/*; do
-   ln -sf $f "/usr/bin/${f##*/}" 
+   ln -sf $f "/usr/bin/${f##*/}"
 done &&
 
 # Remove object files from target src dir

@@ -1,11 +1,11 @@
           MODULE=libetpan
-         VERSION=1.8
+         VERSION=1.9.3
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/dinhviethoa/libetpan/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha256:4e67a7b4abadcf3cc16fa16e1621a68e54d489dadfd9a7d1f960c172e953b6eb
+      SOURCE_VFY=sha256:591f97d5102f600e668502fe1dd5a341e910a840d8ea62e689a3a79d8bfbac87
         WEB_SITE=http://www.etpan.org/libetpan.html
          ENTERED=20070227
-         UPDATED=20180904
+         UPDATED=20190123
            SHORT="A mail library"
 
 cat << EOF

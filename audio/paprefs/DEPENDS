@@ -1,8 +1,6 @@
-depends libglademm
+depends gtkmm3
+depends libsigc++2
+depends lynx
+depends tidy
 depends pulseaudio
-depends gconfmm
-
-optional_depends lynx \
-                 "--enable-lynx" \
-                 "--disable-lynx" \
-                 "for documenation generation"
+depends meson

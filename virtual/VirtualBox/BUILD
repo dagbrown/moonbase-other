@@ -1,14 +1,3 @@
-# Remove gcc version check
-sedit "s:^check_gcc$:#check_gcc:" configure &&
-
-# Use our CFLAGS
-echo "VBOX_GCC_OPT=$CXXFLAGS" >> LocalConfig.kmk
-
-# don't build tests
-echo "VBOX_WITH_TESTCASES =" >> LocalConfig.kmk &&
-echo "VBOX_WITH_TESTSUITE =" >> LocalConfig.kmk &&
-echo "VBOX_WITH_WARNINGS_AS_ERRORS =" >> LocalConfig.kmk &&
-
 if in_depends $MODULE sun-jdk; then
   # Location of javac
   . /etc/profile.d/sun-jdk.rc &&
@@ -21,9 +10,13 @@ fi &&
 
 # Build VirtualBox
 # Disable hardening, so normal users can run it
-OPTS+=" --disable-hardening" &&
+OPTS+=" --disable-hardening"
 
-OPTS+=" --disable-kmods" &&
+OPTS+=" --disable-kmods \
+        --disable-docs"
+
+# this removes 32 bit simulation support
+OPTS+=" --disable-vmmraw"
 
 ./configure $OPTS &&
 source ./env.sh &&
@@ -38,7 +31,7 @@ kmk &&
 pushd out/linux.*/release/bin/ &&
 message "Building ${MODULE_COLOR}virtualbox-module-${VERSION_COLOR}${VERSION}${DEFAULT_COLOR}." &&
 message "This may take a while..." &&
-tar -cjf $SOURCE_CACHE/virtualbox-module-$VERSION.tar.bz2 src &&
+# tar -cjf $SOURCE_CACHE/virtualbox-module-$VERSION.tar.bz2 src &&
 popd &&
 
 # Prepare for installation
@@ -67,7 +60,7 @@ if in_depends $MODULE qt5; then
          -e "s:Oracle VM VirtualBox:VirtualBox Oracle VM:1" \
          /usr/lib/virtualbox/virtualbox.desktop &&
   # Install .desktop entry and icon
-  install -Dm 644 /usr/{lib/virtualbox,share/applications}/virtualbox.desktop    &&
+  install -Dm 644 /usr/{lib/virtualbox,share/applications}/virtualbox.desktop &&
   for x in `ls /usr/lib/virtualbox/icons/`; do
     if [[ -f /usr/lib/virtualbox/icons/$x/virtualbox.png ]]; then
       install -Dm 644 /usr/lib/virtualbox/icons/$x/virtualbox.png \
@@ -80,8 +73,8 @@ if in_depends $MODULE texlive; then
   install -Dm 644 /usr/{lib/virtualbox,share/doc/VirtualBox}/UserManual.pdf
 fi &&
 
-install -Dm644 {$SCRIPT_DIRECTORY,/etc/udev/rules.d}/60-vboxdrv.rules &&
-install -Dm644 {$SCRIPT_DIRECTORY,/etc/udev/rules.d}/60-vboxguest.rules &&
+install -Dm644 {$SCRIPT_DIRECTORY/udev.d,/etc/udev/rules.d}/60-vboxdrv.rules &&
+install -Dm644 {$SCRIPT_DIRECTORY/udev.d,/etc/udev/rules.d}/60-vboxguest.rules &&
 
 # Create the vboxusers group
 groupadd -f vboxusers

@@ -1,0 +1,6 @@
+depends librsvg
+depends libxkbcommon
+depends startup-notification
+depends xcb-util-wm
+depends xcb-util-xrm
+depends xdg-utils

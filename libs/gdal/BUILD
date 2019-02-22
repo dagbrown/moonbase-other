@@ -1,14 +1,7 @@
-# Fixes error of installing etc stuff into /usr/etc
-OPTS+=" --sysconfdir=/etc" &&
 
-# Fix mandir
-sedit "s|^mandir=.*|mandir='\${prefix}/share/man'|" configure &&
+default_config &&
 
-# and you need this
-#sed -i "8d" scripts/GNUmakefile &&
-sed -i "s:\$(DESTDIR)\${prefix}::" scripts/GNUmakefile &&
+sed -i 's/PY_HAVE_SETUPTOOLS=1/PY_HAVE_SETUPTOOLS=/g' ./GDALmake.opt &&
+sed -i 's/EXE_DEP_LIBS/KILL_EXE_DEP_LIBS/' apps/GNUmakefile &&
 
-export CFLAGS="$CFLAGS -fno-strict-aliasing" &&
-export LDFLAGS="$LDFLAGS -Wl,--as-needed" &&
-
-default_build
+default_make

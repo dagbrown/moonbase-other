@@ -1,3 +1,0 @@
-default_pre_build &&
-
-sedit '/boost\/utility\.hpp/ a #include <boost/next_prior.hpp>' include/yaml-cpp/node/detail/iterator.h

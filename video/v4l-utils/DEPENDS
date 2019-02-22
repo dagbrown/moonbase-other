@@ -1,4 +1,4 @@
-optional_depends alsa-lib "" "" "for ALSA support"
+depends alsa-lib
 
 optional_depends %JPEG \
                  "--with-jpeg" \
@@ -12,5 +12,5 @@ optional_depends qt5 \
 
 optional_depends %UDEV \
                  "--with-udevdir=/usr/lib/udev" \
-                 "--with-udevdir" \
+                 "--without-udevdir" \
                  "for udev device name support"

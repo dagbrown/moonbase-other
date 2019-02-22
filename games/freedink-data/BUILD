@@ -1,2 +1,3 @@
-prepare_install  &&
-make PREFIX=/usr DATADIR=/usr/share/games install
+prepare_install &&
+
+make PREFIX=/usr DATADIR=/usr/share/games/freedink install

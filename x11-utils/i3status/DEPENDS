@@ -1,7 +1,0 @@
-depends alsa-lib
-depends wireless_tools
-depends confuse
-depends yajl
-depends asciidoc
-
-optional_depends pulseaudio "" "" "Include support for pulseaudio"

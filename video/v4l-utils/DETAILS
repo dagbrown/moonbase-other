@@ -1,12 +1,12 @@
        MODULE=v4l-utils
-      VERSION=1.16.1
+      VERSION=1.16.3
        SOURCE=$MODULE-$VERSION.tar.bz2
    SOURCE_URL=https://linuxtv.org/downloads/$MODULE
-   SOURCE_VFY=sha256:c7e4d6f4b4b7f278a6fa4bf56385526920d40fbd9e3e2827b75ddcd41da0504a
+   SOURCE_VFY=sha256:7c5c0d49c130cf65d384f28e9f3a53c5f7d17bf18740c48c40810e0fbbed5b54
      WEB_SITE=http://linuxtv.org/
       ENTERED=20110212
-      UPDATED=20181022
-        SHORT="thin abstraction layer on top of video4linux2 devices"
+      UPDATED=20181220
+        SHORT="A thin abstraction layer on top of video4linux2 devices"
 
 PSAFE=no
 cat << EOF

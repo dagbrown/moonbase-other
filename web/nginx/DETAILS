@@ -1,14 +1,14 @@
           MODULE=nginx
-         VERSION=1.15.4
+         VERSION=1.15.7
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://nginx.org/download
-      SOURCE_VFY=sha256:3324776c800d974ceae8797ab9102ca26a8c3656f5c6fb3f31f2cb1e719458e7
+      SOURCE_VFY=sha256:8f22ea2f6c0e0a221b6ddc02b6428a3ff708e2ad55f9361102b1c9f4142bdf93
         WEB_SITE=http://nginx.org
          ENTERED=20111228
-         UPDATED=20180926
+         UPDATED=20181214
            SHORT="http server and reverse proxy"
 
-cat <<EOF
+cat << EOF
 nginx [engine x] is an HTTP and reverse proxy server, as well as a mail proxy
 server.
 EOF

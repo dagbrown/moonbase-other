@@ -1,11 +1,11 @@
           MODULE=blueman
-         VERSION=2.0.5
+         VERSION=2.0.7
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=https://github.com/blueman-project/blueman/releases/download/$VERSION/
-      SOURCE_VFY=sha256:66e8d48adae31f279160ac4b79734717645854b70f8e0ce54cea483a9b6d2acd
+      SOURCE_VFY=sha256:7d802cbfb689add1793f6427f1febf80b66932b7bcc958018806a99c5b60a160
         WEB_SITE=https://github.com/blueman-project/blueman/
          ENTERED=20090511
-         UPDATED=20171016
+         UPDATED=20181230
            SHORT="GTK+ Bluetooth Manager"
 
 cat << EOF
