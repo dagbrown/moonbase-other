@@ -1,12 +1,12 @@
           MODULE=thunderbird-bin
-         VERSION=60.5.3
+         VERSION=60.6.1
           SOURCE=thunderbird-$VERSION.tar.bz2
       SOURCE_URL=https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/$VERSION/linux-x86_64/en-US/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/mozilla
-      SOURCE_VFY=sha256:7bd88a28f52b929d4c02cd46483cb1c3c9692595d4f9bb8fabd87b36e6db6aa5
+      SOURCE_VFY=sha256:d2eb057c50f096314453a34cb0645a057ee8be0e045d89ec02455284739b0ad0
         WEB_SITE=http://www.mozilla.org/projects/thunderbird
          ENTERED=20091207
-         UPDATED=20190306
+         UPDATED=20190325
          ARCHIVE=off
            SHORT="A full-featured mail client"
 
