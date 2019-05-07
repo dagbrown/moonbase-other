@@ -1,11 +1,11 @@
           MODULE=tmux
-         VERSION=2.8
+         VERSION=2.9a
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://github.com/tmux/tmux/releases/download/$VERSION/
-      SOURCE_VFY=sha256:7f6bf335634fafecff878d78de389562ea7f73a7367f268b66d37ea13617a2ba
+      SOURCE_VFY=sha256:839d167a4517a6bffa6b6074e89a9a8630547b2dea2086f1fad15af12ab23b25
         WEB_SITE=http://tmux.github.io/
          ENTERED=20100924
-         UPDATED=20181104
+         UPDATED=20190502
            SHORT="A terminal multiplexer"
 
 cat << EOF
