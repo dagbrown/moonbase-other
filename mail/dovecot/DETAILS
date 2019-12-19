@@ -1,11 +1,11 @@
           MODULE=dovecot
-         VERSION=2.3.8
+         VERSION=2.3.9.2
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://www.dovecot.org/releases/2.3/
-      SOURCE_VFY=sha256:c5778d03bf26ab34a605854098035badec455d07adfab38d974f610c8f78b649
+      SOURCE_VFY=sha256:4784fb98dd41b83888e4aa9908efcbcad2e04a254e97440863903c0c498486f9
         WEB_SITE=http://www.dovecot.org
          ENTERED=20041204
-         UPDATED=20191008
+         UPDATED=20191214
            SHORT="A small, fast and secure (SSL) Maildir capable imap daemon"
 
 cat << EOF

@@ -1,11 +1,11 @@
           MODULE=thunderbird
-         VERSION=60.8.0
+         VERSION=68.2.2
           SOURCE=thunderbird-$VERSION.source.tar.xz
       SOURCE_URL=http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/$VERSION/source
-      SOURCE_VFY=sha256:1e7a13e64b63476d2235aaac6823fdab949af45cfcd5a25ee710cbae08c2f5d1
+      SOURCE_VFY=sha256:c17edbcde0e9e7599cda16b69b130039f69113b498ea394057cedfae153f0dd3
         WEB_SITE=http://www.mozilla.org/projects/thunderbird
          ENTERED=20031021
-         UPDATED=20190712
+         UPDATED=20191108
            SHORT="A full-featured mail client"
 
 cat << EOF

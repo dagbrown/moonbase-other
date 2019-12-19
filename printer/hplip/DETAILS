@@ -1,11 +1,11 @@
           MODULE=hplip
-         VERSION=3.19.8
+         VERSION=3.19.12
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=$SFORGE_URL/$MODULE
-      SOURCE_VFY=sha256:a385fea00241592d148ef1a20082799fa45b36031742157db181d5d94a84ba32
+      SOURCE_VFY=sha256:
         WEB_SITE=http://hplipopensource.com/hplip-web/index.html
          ENTERED=20061216
-         UPDATED=20190828
+         UPDATED=20191216
            SHORT="Hewlett Packard's drivers for HP printers"
 PSAFE=no
 cat << EOF

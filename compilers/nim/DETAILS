@@ -1,16 +1,16 @@
           MODULE=nim
-         VERSION=1.0.0
+         VERSION=1.0.4
         CVERSION=0.20.0
           SOURCE=$MODULE-$VERSION.tar.gz
          SOURCE2=csources-${CVERSION%.*}.0.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/Nim-$VERSION
  SOURCE_URL_FULL=http://github.com/nim-lang/Nim/archive/v$VERSION.tar.gz
 SOURCE2_URL_FULL=http://github.com/nim-lang/csources/archive/v$CVERSION.tar.gz
-      SOURCE_VFY=sha256:6d93d25da6b5ef4e0223acb1f1abadf06be1019a8137491ddc7c6fa030e638c3
+      SOURCE_VFY=sha256:a3de1c63e70ede5de98d707397f461944732d9b127b41ed35983698b7a8677c9
      SOURCE2_VFY=sha256:5e6fd15d90df1a8cb7614c4ffc70aa8c4198cd854d7742016202b96dd0228d3c
         WEB_SITE=http://nim-lang.org/
          ENTERED=20150302
-         UPDATED=20190924
+         UPDATED=20191128
            SHORT="Imperative, multi-paradigm, compiled programming language"
 
 cat << EOF

@@ -1,11 +1,11 @@
           MODULE=fzf
-         VERSION=0.18.0
+         VERSION=0.20.0
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/junegunn/fzf/archive/${VERSION}.tar.gz
-      SOURCE_VFY=sha256:5406d181785ea17b007544082b972ae004b62fb19cdb41f25e265ea3cc8c2d9d
+      SOURCE_VFY=sha256:fe6a7d07bdf999324a4f90fa97a4d2e8416c89bc92f19c9848c1cbcf365b59dc
         WEB_SITE=https://github.com/junegunn/fzf/
          ENTERED=20181112
-         UPDATED=20190411
+         UPDATED=20191218
            SHORT="Command-line fuzzy finder"
 
 cat <<EOF

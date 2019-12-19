@@ -1,12 +1,12 @@
           MODULE=libssh
-         VERSION=0.9.1
+         VERSION=0.9.3
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://www.libssh.org/files/${VERSION%.*}/
-      SOURCE_VFY=sha256:33249bb616bb696e184cf930ea5d14239b65bb999c0815589efc35e5ed895787
+      SOURCE_VFY=sha256:2c8b5f894dced58b3d629f16f3afa6562c20b4bdc894639163cf657833688f0c
         WEB_SITE=http://www.libssh.org
             TYPE=cmake
          ENTERED=20091001
-         UPDATED=20191025
+         UPDATED=20191210
            SHORT="A library for accessing ssh client services"
 
 cat << EOF

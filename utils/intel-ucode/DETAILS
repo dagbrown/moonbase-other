@@ -1,12 +1,12 @@
           MODULE=intel-ucode
-         VERSION=20190918
+         VERSION=20191115
           SOURCE=microcode-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/Intel-Linux-Processor-Microcode-Data-Files-microcode-$VERSION
       SOURCE_URL=https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files/archive/
-      SOURCE_VFY=sha256:2b6b728d351764dfbf6a9763ac96ae7e04085f382a309fed3abc0118f094c943
+      SOURCE_VFY=sha256:14b26d27be70774948b8cb582e298f5317263b8b8bb1fe8e41260eae54f531dc
         WEB_SITE=http://downloadcenter.intel.com
          ENTERED=20070916
-         UPDATED=20190918
+         UPDATED=20191212
            SHORT="Intel ucode - data files"
 
 cat << EOF

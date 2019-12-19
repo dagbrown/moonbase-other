@@ -1,12 +1,12 @@
           MODULE=fluidsynth
-         VERSION=2.0.8
+         VERSION=2.1.0
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/FluidSynth/fluidsynth/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:0c37e72db31d1b35e587b94b7163d68444cffaa9e7fe8a293d79957620bff117
+      SOURCE_VFY=sha256:526addc6d8445035840d3af7282d3ba89567df209d28e183da04a1a877da2da3
         WEB_SITE=http://www.fluidsynth.org/
             TYPE=cmake
          ENTERED=20060317
-         UPDATED=20191029
+         UPDATED=20191130
            SHORT="A real-time software synthesizer"
 
 cat << EOF

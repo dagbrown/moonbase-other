@@ -1,12 +1,12 @@
           MODULE=libreoffice-bin
-         VERSION=6.3.2
+         VERSION=6.3.4
           SOURCE=LibreOffice_${VERSION}_Linux_x86-64_rpm.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
       SOURCE_URL=http://download.documentfoundation.org/libreoffice/stable/$VERSION/rpm/x86_64
-      SOURCE_VFY=sha256:117e0f483ff4390b590179a071939040d2dda70f774fc2f0c040c2582edcd717
+      SOURCE_VFY=sha256:35ca9ddffd7b8bdef730167b6b0f3f15dd70d07d0af1dc1c6a08310c9ba3448b
         WEB_SITE=http://www.libreoffice.org
          ENTERED=20110330
-         UPDATED=20190927
+         UPDATED=20191212
            SHORT="The open office suite for unix"
 
 LDD_CHECK=off
