@@ -1,7 +1,6 @@
 depends lvm2
 depends git
 depends go
-depends btrfs-progs
 depends iptables
 depends libseccomp
 depends runc
@@ -11,5 +10,6 @@ depends conmon
 depends skopeo
 depends slirp4netns
 depends libostree
+depends btrfs-progs
 
 optional_depends go-md2man "" "" "required to build man-pages"
