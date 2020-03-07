@@ -1,2 +1,2 @@
-depends ilmbase
+depends cmake
 depends zlib

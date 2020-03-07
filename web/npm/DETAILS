@@ -1,12 +1,12 @@
           MODULE=npm
-         VERSION=6.13.6
+         VERSION=6.14.2
           SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/cli-$VERSION
  SOURCE_URL_FULL=http://github.com/npm/cli/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:e6843cd6859ae96bc450517b7d1db2126b62a62ebb1f9b4dd3cbb2f6833a746f
+      SOURCE_VFY=sha256:2be9b39d1cc3d0eb039d999ee529aaac7f54da6d36f5aa77200b51095104c284
         WEB_SITE=http://npmjs.org/
          ENTERED=20150515
-         UPDATED=20200110
+         UPDATED=20200304
            SHORT="A package manager for Node.js"
 
 cat << EOF

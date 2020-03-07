@@ -4,7 +4,7 @@ OPTS+=" --enable-shared --disable-static"
 OPTS+=" --disable-hdri" &&
 
 # They say to run this if you got dirty.
-# autoreconf &&
+#autoreconf &&
 
 default_config &&
 

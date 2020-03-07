@@ -1,11 +1,11 @@
           MODULE=wine
-         VERSION=5.0
+         VERSION=5.3
           SOURCE=$MODULE-$VERSION.tar.xz
-      SOURCE_URL=http://dl.winehq.org/wine/source/5.0/
-      SOURCE_VFY=sha256:181550ba69a80b00c631f80c28ff7642264613bbecdb0c0fc04d6534866713b4
+      SOURCE_URL=http://dl.winehq.org/wine/source/5.x/
+      SOURCE_VFY=sha256:9b1bc7228bad80a014b6dc55ef17ef532c5a88fd8e477658dda02953cc907fde
         WEB_SITE=http://www.winehq.com
          ENTERED=20010925
-         UPDATED=20200121
+         UPDATED=20200301
            SHORT="Runs Microsoft Windows programs"
 
 cat << EOF

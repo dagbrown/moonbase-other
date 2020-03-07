@@ -2,10 +2,8 @@ if module_installed qt5; then
   . /etc/profile.d/qt5.rc
 fi &&
 
-OPTS+=" --disable-static \
-        --enable-experimental \
-        --disable-valgrind \
-        --disable-debug \
-        --disable-examples"
+OPTS+=" -Dexamples=disabled \
+        -Dtremor=disabled \
+        -Dtests=disabled"
 
-default_build
+default_meson_build

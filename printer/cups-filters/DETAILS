@@ -1,11 +1,11 @@
           MODULE=cups-filters
-         VERSION=1.27.0
+         VERSION=1.27.2
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://openprinting.org/download/$MODULE/
-      SOURCE_VFY=sha256:4ae3cb322baac1a873d583834393e42ae5e2790e1f161a59117870b144f63404
+      SOURCE_VFY=sha256:f7ad7ccda10340e468b9a45429baa54b84af8a170016cab89a3b5e404a97fa25
         WEB_SITE=http://www.openprinting.org
          ENTERED=20130503
-         UPDATED=20200128
+         UPDATED=20200301
            SHORT="Some necessary filters for CUPS"
 
 cat << EOF
