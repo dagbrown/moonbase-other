@@ -1,11 +1,11 @@
           MODULE=re2
-         VERSION=2020-01-01
+         VERSION=2020-03-03
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/google/re2/archive/${VERSION}.tar.gz
-      SOURCE_VFY=sha256:7509a34636b7dd2966f7a34440cee1153983fd61a4bf8f759a4f7781b9ceebaf
+      SOURCE_VFY=sha256:f22f840f731951c2785dbbe087f6c8951a8bd34f2887dbbb75078801f72c36e0
         WEB_SITE=https://github.com/google/re2
          ENTERED=20141001
-         UPDATED=20200102
+         UPDATED=20200307
            SHORT="An alternative to backtracking regular expression engines"
 
 cat << EOF
