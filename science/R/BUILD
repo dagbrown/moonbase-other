@@ -1,4 +1,11 @@
-OPTS+=" --prefix=/usr --enable-R-shlib --sysconfdir=/etc/R"
+OPTS+=" --prefix=/usr \
+        --enable-R-shlib \
+        --sysconfdir=/etc/R \
+        rsharedir=/usr/share/R/ \
+        rincludedir=/usr/include/R/ \
+        rdocdir=/usr/share/doc/R/ \
+        F77=gfortran \
+        LIBnn=lib"
 
 default_build &&
 
@@ -7,6 +14,7 @@ cd src/nmath/standalone &&
 make shared &&
 prepare_install &&
 make install &&
+
 cd $SOURCE_DIRECTORY &&
 
 if [[ "$DVI_DOCS" == "y" ]]; then

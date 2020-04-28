@@ -1,16 +1,19 @@
 OPTS+=" -Dzlib=enabled \
+        -Dzzip=disabled \
         -Dshine=disabled \
         -Dsndio=disabled \
         -Dadplug=disabled \
-        -Dsidplay=disabled \
         -Dtremor=disabled \
-        -Ddocumentation=false" &&
+        -Dsidplay=disabled \
+        -Ddocumentation=false"
+
+add_priv_user mpd:mpd
 
 if module_installed systemd; then
     OPTS+=" -Dsystemd=enabled"
   else
     OPTS+=" -Dsystemd=disabled"
-fi &&
+fi
 
 default_meson_build &&
 

@@ -1,11 +1,11 @@
          MODULE=libdvdread
-        VERSION=6.0.2
+        VERSION=6.1.1
          SOURCE=$MODULE-$VERSION.tar.bz2
      SOURCE_URL=https://download.videolan.org/pub/videolan/libdvdread/$VERSION/
-     SOURCE_VFY=sha256:f91401af213b219cdde24b46c50a57f29301feb7f965678f1d7ed4632cc6feb0
+     SOURCE_VFY=sha256:3e357309a17c5be3731385b9eabda6b7e3fa010f46022a06f104553bf8e21796
        WEB_SITE=https://www.videolan.org/developers/libdvdnav.html
         ENTERED=20010927
-        UPDATED=20191108
+        UPDATED=20200409
           SHORT="library for reading DVD video disks"
 
 cat << EOF

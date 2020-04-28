@@ -1,11 +1,11 @@
           MODULE=nginx
-         VERSION=1.17.9
+         VERSION=1.18.0
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://nginx.org/download
-      SOURCE_VFY=sha256:7dd65d405c753c41b7fdab9415cfb4bdbaf093ec6d9f7432072d52cb7bcbb689
+      SOURCE_VFY=sha256:4c373e7ab5bf91d34a4f11a0c9496561061ba5eee6020db272a17a7228d35f99
         WEB_SITE=http://nginx.org
          ENTERED=20111228
-         UPDATED=20200304
+         UPDATED=20200421
            SHORT="http server and reverse proxy"
 
 cat << EOF

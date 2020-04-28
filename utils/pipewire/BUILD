@@ -1,4 +1,10 @@
-CFLAGS+=" -Wformat" &&
-LDFLAGS="-Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now" &&
+unset LDFLAGS LD CFLAGS CPPFLAGS &&
+
+OPTS+=" -Dvulkan=false" &&
+
+CFLAGS+="-Wformat" &&
+
+# https://github.com/mesonbuild/meson/issues/6431
+# Have to see how to avoid this issue
 
 default_meson_build
