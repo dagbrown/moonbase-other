@@ -1,6 +1,3 @@
+OPTS+=" --disable-static"
 
-  OPTS+=" --disable-static" &&
-
-  ./autogen.sh &&
-
-  default_build
+default_make
