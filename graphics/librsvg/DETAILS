@@ -1,11 +1,11 @@
           MODULE=librsvg
-         VERSION=2.48.5
+         VERSION=2.48.7
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=$GNOME_URL/sources/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:7a578aa129078dc853e48dbb87c9b2986c0ebbdc985cea4125a05827d0dd99eb
+      SOURCE_VFY=sha256:35de5d93e262fcd85fa4529cee147687d21c6e092f223c293921eaaf57e2fec0
         WEB_SITE=http://www.gnome.org
          ENTERED=20020714
-         UPDATED=20200530
+         UPDATED=20200605
            SHORT="A library for operating on files in SVG format"
 
 PSAFE=no
