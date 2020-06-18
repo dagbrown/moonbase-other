@@ -1,11 +1,11 @@
           MODULE=bashtop
-         VERSION=0.9.9
+         VERSION=0.9.12
           SOURCE=${MODULE}-${VERSION}.tar.gz
  SOURCE_URL_FULL=https://github.com/aristocratos/bashtop/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:d4a9bb16f8c659371f65f7c6012baac7fdd225d2b4383e151d0150c432b97ebe
+      SOURCE_VFY=sha256:996eab275aa32b1c7763b5b4fef3cf33de50ccb54dbeaf7eb03cb34ab0015df3
         WEB_SITE=https://github.com/aristocratos/bashtop/
          ENTERED=20200503
-         UPDATED=20200608
+         UPDATED=20200618
            SHORT="Linux resource monitor in bash"
 
 cat << EOF
