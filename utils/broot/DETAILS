@@ -1,11 +1,11 @@
           MODULE=broot
-         VERSION=0.15.1
+         VERSION=0.18.0
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/Canop/broot/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:39282e7cbcdf270c5f4853fb9c633caa06af85da9cc63fd61613b51f08bc19c6
+      SOURCE_VFY=sha256:e2be7bb959978482944bdf02f6882c4d1521ca3941df11f88a6b7444cc4cd0db
         WEB_SITE=https://github.com/Canop/broot/
          ENTERED=20200111
-         UPDATED=20200615
+         UPDATED=20200629
            SHORT="Fuzzy Search + tree + cd"
 
 cat <<EOF
