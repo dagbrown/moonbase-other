@@ -1,5 +1,5 @@
           MODULE=create-headers
-         KERNVER=5.4
+         KERNVER=5.8
         PATCHVER=7
          VERSION=$KERNVER.$PATCHVER
           SOURCE=linux-$KERNVER.tar.xz
@@ -13,7 +13,7 @@ SOURCE_DIRECTORY=$BUILD_DIRECTORY/linux-$KERNVER
      SOURCE2_VFY=sha256:7d99e8136518db0601abb7b59388c07838125901f540084d4575e87602544fd1
         WEB_SITE=http://www.lunar-linux.org/
          ENTERED=20100711
-         UPDATED=20200101
+         UPDATED=20200906
            SHORT="Creates the latest kernel headers package"
 
 cat << EOF
