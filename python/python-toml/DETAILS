@@ -8,6 +8,7 @@ SOURCE_DIRECTORY=$BUILD_DIRECTORY/toml-$VERSION
          ENTERED=20201212
          UPDATED=20201212
            SHORT="for parsing and creating TOML"
+            TYPE=python3
 
 cat << EOF
 A Python library for parsing and creating TOML.
