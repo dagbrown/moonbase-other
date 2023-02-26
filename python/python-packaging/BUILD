@@ -1,6 +1,6 @@
 export PYTHONDONTWRITEBYTECODE=1 &&
 
-python -m build -nw &&
+PYTHONPATH=$(pwd)/src python -m build -w &&
 
 prepare_install &&
 
