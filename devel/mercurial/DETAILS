@@ -1,11 +1,11 @@
           MODULE=mercurial
-         VERSION=6.7
+         VERSION=6.8.1
           SOURCE=$MODULE-$VERSION.tar.gz
-      SOURCE_URL=https://www.selenic.com/$MODULE/release/
-      SOURCE_VFY=sha256:5358ed20604c67a7bc7ff81141f735586c328fbb6a18440d2e1e6cd0c044a4c6
-        WEB_SITE=http://www.selenic.com/mercurial/wiki/
+      SOURCE_URL=https://www.mercurial-scm.org/release/
+      SOURCE_VFY=sha256:030e8a7a6d590e4eaeb403ee25675615cd80d236f3ab8a0b56dcc84181158b05
+        WEB_SITE=https://wiki.mercurial-scm.org/
          ENTERED=20070408
-         UPDATED=20240320
+         UPDATED=20240823
            SHORT="A fast, lightweight SCM system"
 
 cat << EOF

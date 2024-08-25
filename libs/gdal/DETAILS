@@ -1,11 +1,11 @@
           MODULE=gdal
-         VERSION=3.9.0
+         VERSION=3.9.2
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=https://github.com/OSGeo/gdal/releases/download/v$VERSION/
-      SOURCE_VFY=sha256:3b29b573b60d156cf160805290474b625c4197ca36a79fd14f83ec8f77f29ba0
+      SOURCE_VFY=sha256:c9767e79ca7245f704bfbcb47d771b2dc317d743536b78d648c3e92b95fbc21e
         WEB_SITE=http://gdal.org/
          ENTERED=20050915
-         UPDATED=20240517
+         UPDATED=20240817
            SHORT="Geospatial Data Abstraction Library"
 
 cat << EOF

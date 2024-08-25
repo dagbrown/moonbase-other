@@ -1,11 +1,11 @@
           MODULE=ffmpeg
-         VERSION=7.0
+         VERSION=7.0.2
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://www.ffmpeg.org/releases
-      SOURCE_VFY=sha256:4426a94dd2c814945456600c8adfc402bee65ec14a70e8c531ec9a2cd651da7b
+      SOURCE_VFY=sha256:8646515b638a3ad303e23af6a3587734447cb8fc0a0c064ecdb8e95c4fd8b389
         WEB_SITE=https://www.ffmpeg.org/
          ENTERED=20020327
-         UPDATED=20240408
+         UPDATED=20240803
            SHORT="ffmpeg is an avi decoder"
 
 cat << EOF

@@ -1,0 +1,16 @@
+          MODULE=mongo-cxx-driver
+         VERSION=3.10.2
+          SOURCE=$MODULE-r$VERSION.tar.gz
+      SOURCE_URL=https://github.com/mongodb/mongo-cxx-driver/releases/download/r$VERSION/
+      SOURCE_VFY=sha256:52b99b2866019b5ea25d15c5a39e2a88c70fe1259c40f1091deff8bfae0194be
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-r$VERSION
+        WEB_SITE=https://github.com/mongodb/mongo-cxx-driver
+            TYPE=cmake
+         ENTERED=20140717
+         UPDATED=20240726
+           SHORT="C++ driver for MongoDB"
+
+cat << EOF
+This module provides the C++ driver for MongoDB which is required
+to communicate with Mongo databases from C++ applications.
+EOF

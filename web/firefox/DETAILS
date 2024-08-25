@@ -1,11 +1,11 @@
            MODULE=firefox
-          VERSION=126.0
+          VERSION=129.0.2
            SOURCE=$MODULE-$VERSION.source.tar.xz
        SOURCE_URL=https://archive.mozilla.org/pub/firefox/releases/$VERSION/source
-       SOURCE_VFY=sha256:910e82a1999ec229e5bc5090a39cec9c575e8bafcac2c54f9bb5c699bd868526
+       SOURCE_VFY=sha256:35a1da121af474833d013ecbc1f77aa55bb35678fe06d438842d320dfab3f344
          WEB_SITE=https://www.mozilla.org/en-US/firefox/
           ENTERED=20110814
-          UPDATED=20240515
+          UPDATED=20240819
             SHORT="A web browser from mozilla.org"
 cat << EOF
 A web browser from mozilla.org.

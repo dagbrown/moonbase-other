@@ -1,11 +1,11 @@
           MODULE=ugrep
-         VERSION=6.1.0
+         VERSION=6.5.0
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/Genivia/ugrep/archive/v${VERSION}.tar.gz
-      SOURCE_VFY=sha256:587ebb694dd3d2f5bef9f35df5b9e196b89da981cfe1084539e55b8d9a62fd65
+      SOURCE_VFY=sha256:eec1ddcd17dcc017987caad916ed245adef5ccc151837eefae5f86047fae0d99
         WEB_SITE=https://github.com/Genivia/ugrep/
          ENTERED=20210205
-         UPDATED=20240603
+         UPDATED=20240824
            SHORT="Universal grep is a ultra fast searcher"
 
 cat << EOF

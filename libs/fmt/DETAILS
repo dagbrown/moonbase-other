@@ -1,13 +1,14 @@
           MODULE=fmt
-         VERSION=10.2.1
+         VERSION=11.0.2
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/fmtlib/fmt/archive/refs/tags/$VERSION.tar.gz
-      SOURCE_VFY=sha256:1250e4cc58bf06ee631567523f48848dc4596133e163f02615c97f78bab6c811
+      SOURCE_VFY=sha256:6cb1e6d37bdcb756dbbe59be438790db409cdb4868c66e888d5df9f13f7c027f
         WEB_SITE=https://github.com/fmtlib/fmt
          ENTERED=20231101
-         UPDATED=20240303
+         UPDATED=20240721
            SHORT="open-source formatting library"
 
 cat << EOF
-FMT is an open-source formatting library providing a fast and safe alternative to C stdio and C++ iostreams.
+FMT is an open-source formatting library providing a fast and safe alternative
+to C stdio and C++ iostreams.
 EOF

@@ -1,12 +1,12 @@
           MODULE=shfmt
-         VERSION=3.7.0
+         VERSION=3.9.0
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/mvdan/sh/archive/v${VERSION}.tar.gz
+      SOURCE_VFY=sha256:d8bd0b83cd41bb65420395d6efb7d2c4bfcd535fbf3d702325d150e5ee2d1809
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/sh-$VERSION
-      SOURCE_VFY=sha256:89eafc8790df93305dfa42233e262fb25e1c96726a3db420a7555abadf3111ed
         WEB_SITE=https://github.com/mvdan/sh/
          ENTERED=20200512
-         UPDATED=20230808
+         UPDATED=20240818
            SHORT="A formatter for shell programs"
 
 cat << EOF

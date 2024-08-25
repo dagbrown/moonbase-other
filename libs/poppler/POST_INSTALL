@@ -22,7 +22,7 @@ if module_installed cantor; then
    lunar fix cantor
 fi
 
-if module_installed kile; the
+if module_installed kile; then
    lunar fix kile
 fi
 
@@ -44,4 +44,8 @@ fi
 
 if module_installed krita; then
    lunar fix krita
+fi
+
+if module_installed okular; then
+  lunar fix okular
 fi
