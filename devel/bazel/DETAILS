@@ -1,11 +1,11 @@
           MODULE=bazel
-         VERSION=7.3.2
+         VERSION=7.4.1
           SOURCE=$MODULE-$VERSION-dist.zip
       SOURCE_URL=https://github.com/bazelbuild/bazel/releases/download/$VERSION/
-      SOURCE_VFY=sha256:8c24490a6445b00eb76a04adbb0172f5c51b1edbaeeef91ff7f3c7e86c7921ff
+      SOURCE_VFY=sha256:83386618bc489f4da36266ef2620ec64a526c686cf07041332caff7c953afaf5
         WEB_SITE=http://bazel.build
          ENTERED=20170419
-         UPDATED=20241002
+         UPDATED=20241113
            SHORT="Google's own build tool"
 
 cat << EOF

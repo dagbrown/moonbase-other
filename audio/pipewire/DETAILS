@@ -1,11 +1,11 @@
           MODULE=pipewire
-         VERSION=1.2.5
+         VERSION=1.2.7
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/PipeWire/pipewire/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha256:4c3209c78ce63af6bd2658e5092c220d844fc2b7a039bbbb950e71890cc8ac78
+      SOURCE_VFY=sha256:e75568ed18bcbe75e9779af57cb9cc256fd7ebfaadc12bb347a0717055d1d3a9
         WEB_SITE=https://github.com/PipeWire/pipewire
          ENTERED=20190820
-         UPDATED=20240927
+         UPDATED=20241127
            SHORT="Server and user space API to deal with multimedia pipelines"
 
 cat << EOF
