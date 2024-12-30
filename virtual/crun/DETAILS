@@ -1,11 +1,11 @@
           MODULE=crun
-         VERSION=1.18.2
+         VERSION=1.19.1
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=https://github.com/containers/crun/releases/download/$VERSION/
-      SOURCE_VFY=sha256:fdd530a398e32c36ccb597a43d17692631257374b9121027d88bbc5bccb24442
+      SOURCE_VFY=sha256:32a9f283066640141a0f4401ac7ec7b5dd076b9632ab7e2eb53ff2c4e77bc8c1
         WEB_SITE=https://github.com/containers/crun/
          ENTERED=20200929
-         UPDATED=20241031
+         UPDATED=20241222
            SHORT="A faster and lightweight OCI container runtime C library"
 
 cat << EOF

@@ -1,11 +1,11 @@
           MODULE=yt-dlp
-         VERSION=2024.12.03
+         VERSION=2024.12.23
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/yt-dlp/yt-dlp/archive/refs/tags/$VERSION.tar.gz
-      SOURCE_VFY=sha256:444165351fee6f1f7f248b82b8adfeefaecc0d6e0bb9a7dea64dd5758e899737
+      SOURCE_VFY=sha256:9da52370ed212c85cf37bf40911143eb68c7218d974a3254fb1d2e0f745f0260
         WEB_SITE=https://github.com/yt-dlp/yt-dlp
          ENTERED=20221226
-         UPDATED=20241203
+         UPDATED=20241224
            SHORT="youtube download manager"
 
 cat << EOF
