@@ -1,11 +1,11 @@
           MODULE=rsync
-         VERSION=3.3.0
+         VERSION=3.4.1
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=https://download.samba.org/pub/rsync/src/
-      SOURCE_VFY=sha256:7399e9a6708c32d678a72a63219e96f23be0be2336e50fd1348498d07041df90
+      SOURCE_VFY=sha256:2924bcb3a1ed8b551fc101f740b9f0fe0a202b115027647cf69850d65fd88c52
         WEB_SITE=http://rsync.samba.org
          ENTERED=20010922
-         UPDATED=20240408
+         UPDATED=20250117
            SHORT="A replacement for rcp"
            PSAFE=no
 

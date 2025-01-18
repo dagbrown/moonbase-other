@@ -1,11 +1,11 @@
           MODULE=dd_rescue
-         VERSION=1.99.17
+         VERSION=1.99.20
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://www.garloff.de/kurt/linux/ddrescue/
-      SOURCE_VFY=sha256:ec013309cdd034101d0f129682bc296b86bc94b7168b5a7577a12b395fb1a5cd
+      SOURCE_VFY=sha256:0dce97f27d3305d1b01e890fe485e41c8712e512f2851e0186fb48ae6dd0953d
         WEB_SITE=http://www.garloff.de/kurt/linux/ddrescue/
          ENTERED=20020420
-         UPDATED=20241103
+         UPDATED=20250109
            SHORT="Copies data and can handle bad media"
 
 cat << EOF

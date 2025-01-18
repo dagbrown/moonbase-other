@@ -1,11 +1,11 @@
           MODULE=doxygen
-         VERSION=1.13.0
+         VERSION=1.13.2
           SOURCE=$MODULE-$VERSION.src.tar.gz
       SOURCE_URL=https://doxygen.nl/files/
-      SOURCE_VFY=sha256:99434f8130f68be4a4a817e540620aedf95c617c68cc73434de04207abaaae46
+      SOURCE_VFY=sha256:3a25e3386c26ea5494c784e946327225debfbc5dbfa8b13549010a315aace66d
         WEB_SITE=https://www.doxygen.nl/index.html
          ENTERED=20020529
-         UPDATED=20241228
+         UPDATED=20250111
            SHORT="Documentation system for C++, Java, IDL and C"
 
 cat << EOF
