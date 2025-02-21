@@ -1,12 +1,12 @@
           MODULE=sqlite
-         VERSION=3470200
+         VERSION=3490100
           SOURCE=$MODULE-src-$VERSION.zip
-      SOURCE_URL=https://sqlite.org/2024/
-     SOURCE_VFY=sha256:e6a471f1238225f34c2c48c5601b54024cc538044368230f59ff0672be1fc623
+      SOURCE_URL=https://sqlite.org/2025
+     SOURCE_VFY=sha256:4404d93cbce818b1b98ca7259d0ba9b45db76f2fdd9373e56f2d29b519f4d43b
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/sqlite-src-$VERSION/
         WEB_SITE=https://sqlite.org
          ENTERED=20011016
-         UPDATED=20241208
+         UPDATED=20250220
            SHORT="A SQL engine in a C library"
 
 cat << EOF

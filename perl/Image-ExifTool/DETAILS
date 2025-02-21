@@ -1,12 +1,12 @@
           MODULE=Image-ExifTool
-         VERSION=13.17
+         VERSION=13.19
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=https://exiftool.org/
-      SOURCE_VFY=sha256:c26970a59d291e69979575efb7f133fa823812b4ec2db036747a9516770ac073
+      SOURCE_VFY=sha256:d159ef6b7ffb58b86fb84145fc08865a55ed27ee8d375f8ba1febef64a1aef1a
         WEB_SITE=https://exiftool.org/index.html
             TYPE=perl
          ENTERED=20080913
-         UPDATED=20250130
+         UPDATED=20250212
            SHORT="perl module for editing, writing and editing meta information"
 
 cat << EOF

@@ -7,7 +7,7 @@ export GOPATH=$BUILD_DIRECTORY
 if module_installed go; then
   export GOROOT_BOOTSTRAP=$GOROOT_FINAL
 else
-  export GOROOT_BOOTSTRAP=/usr/lib/go1.20
+  export GOROOT_BOOTSTRAP=/usr/lib/go$(lvu version go-bootstrap | cut -d. -f1,2)
 fi &&
 
 case "$(arch)" in
@@ -32,6 +32,7 @@ cd $SOURCE_DIRECTORY &&
 mkdir -p $GOROOT_FINAL &&
 cp -a bin pkg src lib misc api test $GOROOT_FINAL/ &&
 install -Dm644 VERSION $GOROOT_FINAL/VERSION &&
+install -m644 go.env $GOROOT_FINAL/ &&
 
 mkdir -p /usr/share/doc/go &&
 cp -r doc/* /usr/share/doc/go/ &&
