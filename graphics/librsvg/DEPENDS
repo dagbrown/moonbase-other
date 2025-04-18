@@ -1,6 +1,9 @@
+depends meson
 depends intltool
 depends gdk-pixbuf
 depends rustc
 depends pango
 depends gobject-introspection
 depends vala
+depends libavif
+depends cargo-c

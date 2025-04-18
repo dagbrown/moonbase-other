@@ -1,11 +1,11 @@
           MODULE=dpkg
-         VERSION=1.22.15
+         VERSION=1.22.18
           SOURCE=${MODULE}_${VERSION}.tar.xz
       SOURCE_URL=http://ftp.debian.org/debian/pool/main/d/dpkg/
-      SOURCE_VFY=sha256:e312687edaa05de52c47419569f9566bd9438ccc00158eb5e7c1b5bb4c3e88e0
+      SOURCE_VFY=sha256:7135eb7960e38b2c77810d5aab8cabf5f690fed7475b7b0f2654fd91efbba0f6
         WEB_SITE=http://packages.qa.debian.org/d/dpkg.html
          ENTERED=20060131
-         UPDATED=20250208
+         UPDATED=20250310
            SHORT="Debian package manager"
 
 cat << EOF
