@@ -1,4 +1,4 @@
-source /etc/profile.d/qt5.rc &&
+source /etc/profile.d/qt6.rc &&
 
 export XML_CATALOG_FILES=/etc/xml/catalog
 
@@ -9,9 +9,13 @@ if in_depends $MODULE OpenJDK8U-jdk; then
 fi &&
 
 # Build VirtualBox
-# Disable hardening, so normal users can run it and vmmrw to 
+# Disable hardening, so normal users can run it and vmmrw to
 # remove 32 bit simulation support
-OPTS+=" --disable-hardening --disable-kmods --disable-docs --disable-vmmraw"
+OPTS+=" --disable-hardening \
+        --disable-kmods \
+        --disable-docs \
+        --disable-vmmraw \
+        --with-makeself=/usr/bin/echo"
 
 ./configure $OPTS &&
 source ./env.sh &&

@@ -19,17 +19,22 @@ export CPPFLAGS+=" -DSQLITE_ENABLE_DBSTAT_VTAB=1 \
                    -DSQLITE_ENABLE_FTS4=1 \
                    -DSQLITE_ENABLE_FTS5=1 \
                    -DSQLITE_ENABLE_SESSION \
-                   -DSQLITE_ENABLE_PREUPDATE_HOOK"
+                   -DSQLITE_ENABLE_PREUPDATE_HOOK \
+                   -DSQLITE_ENABLE_RTREE=1"
 
 OPTS+="	--disable-static \
         --enable-fts3 \
         --enable-fts4 \
         --enable-fts5 \
         --enable-rtree \
+        --enable-geopoly \
         --enable-threadsafe \
         --enable-readline"
 
 default_config &&
+
+# fix the tcl related directrory name
+sedit 's|/zipfs:|usr|' Makefile &&
 
 default_make &&
 

@@ -1,12 +1,12 @@
           MODULE=python-soupsieve
-         VERSION=2.5
+         VERSION=2.8
           SOURCE=soupsieve-$VERSION.tar.gz
       SOURCE_URL=https://files.pythonhosted.org/packages/source/s/soupsieve/
-      SOURCE_VFY=sha256:5663d5a7b3bfaeee0bc4372e7fc48f9cff4940b3eec54a6451cc5299f1097690
+      SOURCE_VFY=sha256:e2dd4a40a628cb5f28f6d4b0db8800b8f581b65bb380b97de22ba5ca8d72572f
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/${MODULE#*-}-$VERSION
         WEB_SITE=https://pypi.org/project/soupsieve/
          ENTERED=20210415
-         UPDATED=20240301
+         UPDATED=20250829
            SHORT="a CSS selector library designed to be used with Beautiful Soup 4"
 
 cat << EOF

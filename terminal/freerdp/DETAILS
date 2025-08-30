@@ -1,13 +1,13 @@
           MODULE=freerdp
-         VERSION=3.10.0
+         VERSION=3.16.0
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/FreeRDP/FreeRDP/archive/${VERSION}.tar.gz
-      SOURCE_VFY=sha256:fb776f1f7ef401f8ceb54eb9fce5457c1e2ac04230d62fbc31dc25d9bdca0b1a
+      SOURCE_VFY=sha256:87af812411b3c44f5e50d04d1df5460c520d10ea6d5fb714b00bf8b8758b7594
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/FreeRDP-$VERSION
         WEB_SITE=http://www.freerdp.com/
             TYPE=cmake
          ENTERED=20101118
-         UPDATED=20250314
+         UPDATED=20250702
            SHORT="fork of the rdesktop project"
 PSAFE=no
 cat << EOF

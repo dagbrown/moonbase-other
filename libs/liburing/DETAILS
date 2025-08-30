@@ -1,12 +1,12 @@
           MODULE=liburing
-         VERSION=2.9
+         VERSION=2.12
           SOURCE=$MODULE-$VERSION.tar.gz
-SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$MODULE-$VERSION
       SOURCE_URL=https://github.com/axboe/liburing/archive/refs/tags
-      SOURCE_VFY=sha256:897b1153b55543e8b92a5a3eb9b906537a5fedcf8afaf241f8b8787940c79f8d
+      SOURCE_VFY=sha256:f1d10cb058c97c953b4c0c446b11e9177e8c8b32a5a88b309f23fdd389e26370
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$MODULE-$VERSION
         WEB_SITE=https://git.kernel.dk/cgit/liburing/
          ENTERED=20200723
-         UPDATED=20250205
+         UPDATED=20250828
            SHORT="Linux-native io_uring I/O access library"
 
 cat << EOF

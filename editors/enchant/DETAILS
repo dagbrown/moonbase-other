@@ -1,11 +1,11 @@
           MODULE=enchant
-         VERSION=2.8.2
+         VERSION=2.8.12
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=https://github.com/rrthomas/enchant/releases/download/v$VERSION/
-      SOURCE_VFY=sha256:8f19535adb5577b83b00e02f330fe9b9eb40dd21f19e2899636fc4d3a7696375
+      SOURCE_VFY=sha256:20e5fab2ca0f95ba9d1ef5052fe5b028e3e1d66d4cdea6b9adfcbd3e524c2a09
         WEB_SITE=https://abiword.github.io/enchant/
          ENTERED=20070312
-         UPDATED=20241113
+         UPDATED=20250731
            SHORT="A generic spell checking library"
 
 cat << EOF

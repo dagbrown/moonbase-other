@@ -1,12 +1,12 @@
           MODULE=libxkbcommon
-         VERSION=1.8.1
+         VERSION=1.10.0
           SOURCE=xkbcommon-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-xkbcommon-$VERSION
       SOURCE_URL=https://github.com/xkbcommon/libxkbcommon/archive/
-      SOURCE_VFY=sha256:c65c668810db305c4454ba26a10b6d84a96b5469719fe3c729e1c6542b8d0d87
+      SOURCE_VFY=sha256:0427585a4d6ca17c9fc1ac4b539bf303348e9080af70c5ea402503bc370a9631
         WEB_SITE=http://xkbcommon.org/
          ENTERED=20140918
-         UPDATED=20250312
+         UPDATED=20250528
            SHORT="A library to handle keyboard descriptions"
 
 cat << EOF

@@ -1,11 +1,11 @@
           MODULE=qemu
-         VERSION=9.2.3
+         VERSION=10.0.3
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://download.qemu.org/
-      SOURCE_VFY=sha256:baed494270c361bf69816acc84512e3efed71c7a23f76691642b80bc3de7693e
+      SOURCE_VFY=sha256:5c891267b1534a774465db8b1a0dfcb0c5e6d7ecb6f71345625adf4e0889945b
         WEB_SITE=https://wiki.qemu.org/Main_Page
          ENTERED=20040301
-         UPDATED=20250330
+         UPDATED=20250726
            SHORT="A fast processor emulator"
       MAINTAINER=tchan@lunar-linux.org
 

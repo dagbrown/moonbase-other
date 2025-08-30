@@ -1,12 +1,12 @@
           MODULE=bind-utils
-         VERSION=9.20.7
+         VERSION=9.20.12
           SOURCE=bind-$VERSION.tar.xz
       SOURCE_URL=https://downloads.isc.org/isc/bind9/$VERSION
-      SOURCE_VFY=sha256:43323c8d22d2144282c37b4060ec11e98c24835e225688876fad08ba7b95dca6
+      SOURCE_VFY=sha256:dd32d6eb67504e8a430aaf70b4ef894f3d0226b44c7e02370c9b0d377f1c7999
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/bind-$VERSION
         WEB_SITE=http://www.isc.org/products/BIND
          ENTERED=20050513
-         UPDATED=20250320
+         UPDATED=20250824
            SHORT="Collection of BIND related client programs"
 
 cat << EOF

@@ -1,11 +1,11 @@
           MODULE=vifm
-         VERSION=0.14
+         VERSION=0.14.3
           SOURCE=$MODULE-$VERSION.tar.bz2
         SOURCE_URL=http://github.com/vifm/vifm/releases/download/v${VERSION}/
-      SOURCE_VFY=sha256:2714dd4cef4e53e7a8980ae8445e88279104f815d47f417fa0b8adfe2f3d1bed
+      SOURCE_VFY=sha256:16a9be1108d6a5a09e9f947f7256375e519ba41ebe9473659b20739fdbf3440e
         WEB_SITE=http://github.com/vifm/vifm/
          ENTERED=20170507
-         UPDATED=20250215
+         UPDATED=20250609
            SHORT="Ncurses based file manager with vi like keybindings"
 
 cat << EOF

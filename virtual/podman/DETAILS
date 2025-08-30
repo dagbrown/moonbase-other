@@ -1,11 +1,11 @@
             MODULE=podman
-           VERSION=5.4.1
+           VERSION=5.6.0
             SOURCE=$MODULE-$VERSION.tar.gz
    SOURCE_URL_FULL=https://github.com/containers/podman/archive/v$VERSION.tar.gz
-        SOURCE_VFY=sha256:502117195c06678db612313aaf42505cabeea860f8668802a0608754eb0df9f6
+        SOURCE_VFY=sha256:8d1cbab138506749c55bd0ca5a7e437ebdfc7f8c4eda100bf2642b2b231bbe1f
           WEB_SITE=https://github.com/containers/podman/
            ENTERED=20191214
-           UPDATED=20250312
+           UPDATED=20250819
              SHORT="Tool and library for running OCI-based containers in pods"
 
 cat << EOF

@@ -1,11 +1,11 @@
           MODULE=ipython
-         VERSION=9.0.2
+         VERSION=9.4.0
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://pypi.python.org/packages/source/i/ipython/ipython-$VERSION.tar.gz
-      SOURCE_VFY=sha256:ec7b479e3e5656bf4f58c652c120494df1820f4f28f522fb7ca09e213c2aab52
+      SOURCE_VFY=sha256:c033c6d4e7914c3d9768aabe76bbe87ba1dc66a92a05db6bfa1125d81f2ee270
         WEB_SITE=http://ipython.org/
          ENTERED=20040707
-         UPDATED=20250310
+         UPDATED=20250828
            SHORT="An enhanced Interactive Python shell"
 
 cat << EOF

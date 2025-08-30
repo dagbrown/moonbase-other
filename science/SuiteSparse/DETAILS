@@ -1,11 +1,11 @@
           MODULE=SuiteSparse
-         VERSION=7.8.3
+         VERSION=7.11.0
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/refs/tags/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:ce39b28d4038a09c14f21e02c664401be73c0cb96a9198418d6a98a7db73a259
+      SOURCE_VFY=sha256:93ed4c4e546a49fc75884c3a8b807d5af4a91e39d191fbbc60a07380b12a35d1
         WEB_SITE=http://faculty.cse.tamu.edu/davis/suitesparse.html
          ENTERED=20110209
-         UPDATED=20241224
+         UPDATED=20250819
            SHORT="Suite of Sparse matrix packages"
 cat << EOF
 A meta package of Spare matrix applications. It includes the following;

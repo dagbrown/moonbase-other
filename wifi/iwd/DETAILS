@@ -1,11 +1,11 @@
           MODULE=iwd
-         VERSION=3.5
+         VERSION=3.9
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=https://www.kernel.org/pub/linux/network/wireless/
-      SOURCE_VFY=sha256:503e664de93ef105f7db31c4c3e527dcd2435269388081d135735f4e7803e66b
+      SOURCE_VFY=sha256:988469a702ecf6edd85c6593d0aeb2c99f1d021b1956d2055c4ece6300edcebf
         WEB_SITE=https://git.kernel.org/cgit/network/wireless/iwd.git/
          ENTERED=20180216
-         UPDATED=20250328
+         UPDATED=20250708
            SHORT="Internet Wireless Daemon"
 
 cat << EOF

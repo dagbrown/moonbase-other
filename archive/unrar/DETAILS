@@ -1,12 +1,12 @@
           MODULE=unrar
-         VERSION=7.1.6
+         VERSION=7.1.10
           SOURCE=unrarsrc-$VERSION.tar.gz
       SOURCE_URL=https://www.rarlab.com/rar
-      SOURCE_VFY=sha256:ca5e1da37dd6fa1b78bb5ed675486413f79e4a917709744aa04b6f93dfd914f0
+      SOURCE_VFY=sha256:72a9ccca146174f41876e8b21ab27e973f039c6d10b13aabcb320e7055b9bb98
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE
         WEB_SITE=http://www.rarlab.com
          ENTERED=20011117
-         UPDATED=20250327
+         UPDATED=20250731
       MAINTAINER=tchan@lunar-linux.org
            SHORT="Extract, view, and test the contents of an RAR archive"
 

@@ -1,11 +1,11 @@
           MODULE=wireplumber
-         VERSION=0.5.8
+         VERSION=0.5.10
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://gitlab.freedesktop.org/pipewire/wireplumber/-/archive/${VERSION}/
-      SOURCE_VFY=sha256:ae86dbe0142cf01c97e6b49e84890702b93c8b3e6402c6316cf0f117b62740a8
+      SOURCE_VFY=sha256:c89fa29694e89939c0e57cade5c9a7da8e5da21c19071862978ef5f3a346f1e7
         WEB_SITE=https://gitlab.freedesktop.org/pipewire/wireplumber/
          ENTERED=20200726
-         UPDATED=20250208
+         UPDATED=20250528
            SHORT="Session/policy manager implementation for PipeWire"
 
 cat << EOF

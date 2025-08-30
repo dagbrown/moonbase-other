@@ -1,11 +1,11 @@
           MODULE=bfs
-         VERSION=4.0.6
+         VERSION=4.1
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/tavianator/bfs/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha256:446a0a1a5bcbf8d026aab2b0f70f3d99c08e5fe18d3c564a8b7d9acde0792112
+      SOURCE_VFY=sha256:7a2ccafc87803b6c42009019e0786cb1307f492c2d61d2fcb0be5dcfdd0049da
         WEB_SITE=https://github.com/tavianator/bfs/
          ENTERED=20200109
-         UPDATED=20250228
+         UPDATED=20250812
            SHORT="A breadth-first version of the UNIX find command"
 
 cat << EOF

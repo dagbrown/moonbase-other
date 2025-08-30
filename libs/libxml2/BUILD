@@ -1,27 +1,8 @@
 export PYTHONDONTWRITEBYTECODE=1 &&
-autoreconf -fi &&
 
-OPTS+=" --prefix=/usr --with-history --with-threads --disable-static" &&
-mkdir build-py3 &&
-pushd build-py3 &&
-../configure $OPTS --with-python=/usr/bin/python3 &&
-sedit 's; -shared ; -Wl,-O1,--as-needed\0 ;g' libtool &&
-PYTHONHASHSEED=0 make &&
-popd &&
+OPTS+=" -Dlegacy=enabled"
 
-if in_depends $MODULE python2; then
-  mkdir build-py2 &&
-  pushd build-py2 &&
-  ../configure $OPTS --with-python=/usr/bin/python2 &&
-  sedit 's; -shared ; -Wl,-O1,--as-needed\0 ;g' libtool &&
-  PYTHONHASHSEED=0 make &&
-  popd
-fi &&
+default_meson_build &&
 
-prepare_install &&
-
-make -C build-py3 install &&
-
-if in_depends $MODULE python2; then
-  make -C build-py2/python install
-fi
+# Needed by libreoffice-bin-25.2.4
+ln -sf /usr/lib/libxml2.so /usr/lib/libxml2.so.2

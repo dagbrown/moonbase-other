@@ -1,12 +1,12 @@
           MODULE=rustc
-         VERSION=1.85.1
+         VERSION=1.89.0
           SOURCE=$MODULE-$VERSION-src.tar.xz
       SOURCE_URL=https://static.rust-lang.org/dist/
-      SOURCE_VFY=sha256:b1fbf809efe9f036939401e142631c201a53bcf43ec1696bd9f5290ba236a266
+      SOURCE_VFY=sha256:0b9d55610d8270e06c44f459d1e2b7918a5e673809c592abed9b9c600e33d95a
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION-src
         WEB_SITE=https://www.rust-lang.org/
          ENTERED=20150916
-         UPDATED=20250320
+         UPDATED=20250811
            SHORT="Rust language compiler"
            BUILD=${BUILD/pc/unknown}
 

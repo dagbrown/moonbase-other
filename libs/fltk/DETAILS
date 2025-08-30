@@ -1,11 +1,11 @@
           MODULE=fltk
-         VERSION=1.4.2
+         VERSION=1.4.4
           SOURCE=$MODULE-$VERSION-source.tar.bz2
       SOURCE_URL=https://github.com/fltk/fltk/releases/download/release-$VERSION/
-      SOURCE_VFY=sha256:26aa9626614fd6f30fd8694c89cd4ea7606a1347230a34615f900dcf6f8f4899
+      SOURCE_VFY=sha256:2b302c80b7ea937a8bdc01ed6718fd995035bf63e9a2895491c1001821725f1f
         WEB_SITE=http://www.fltk.org
          ENTERED=20011129
-         UPDATED=20250312
+         UPDATED=20250729
       MAINTAINER=tchan@lunar-linux.org
          GARBAGE=off
            SHORT="fast light graphical toolkit for X11"

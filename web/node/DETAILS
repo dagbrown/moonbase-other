@@ -1,11 +1,11 @@
           MODULE=node
-         VERSION=23.5.0
+         VERSION=24.6.0
           SOURCE=node-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/nodejs/node/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:e9f99c51c4cfaed39380fb1d6daf37dd7303ea10515fb56cca73593dd3af721e
+      SOURCE_VFY=sha256:5ee1a87a3e0e5e92a8f9da1a59bedb04635351605c5f81ff7aa11f7caa6ffeca
         WEB_SITE=https://nodejs.org/
          ENTERED=20140419
-         UPDATED=20241221
+         UPDATED=20250815
            SHORT="asynchronous event-driven JavaScript runtime"
 cat << EOF
 As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications.
