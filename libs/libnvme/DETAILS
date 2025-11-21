@@ -1,11 +1,11 @@
            MODULE=libnvme
-          VERSION=1.14
+          VERSION=1.16.1
            SOURCE=$MODULE-$VERSION.tar.gz
   SOURCE_URL_FULL=https://github.com/linux-nvme/libnvme/archive/refs/tags/v$VERSION.tar.gz
-       SOURCE_VFY=sha256:a7230d6d4959f26cf0c0ef6c9bb479bd94a8c0ec738bf6e164d66c3dc6397e66
+       SOURCE_VFY=sha256:ce1d9d393feb84c4e82ca096db2bdb7dd4a5fd1997d711cc1904796944f2c579
          WEB_SITE=https://github.com/linux-nvme/libnvme
           ENTERED=20230902
-          UPDATED=20250708
+          UPDATED=20251110
             SHORT="C library for NVM Express"
 cat << EOF
 This is the libnvme development C library. libnvme provides type definitions

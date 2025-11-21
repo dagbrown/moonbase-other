@@ -1,12 +1,12 @@
           MODULE=OpenImageIO-oiio
-         VERSION=3.0.9.1
+         VERSION=3.1.7.0
           SOURCE=OpenImageIO-$VERSION.tar.gz
       SOURCE_URL=https://github.com/AcademySoftwareFoundation/OpenImageIO/releases/download/v$VERSION/
-      SOURCE_VFY=sha256:fe78d1a1e596f073e29b1d42dc632135ed1da9f3a4b065fa33f6162a0f0f15bf
+      SOURCE_VFY=sha256:d9b49b568c36993f6b3849bfafd9ac3178a56ff57efd8bd2c1dd81f7ae3ee318
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/OpenImageIO-$VERSION
         WEB_SITE=http://www.openimageio.org/
          ENTERED=20130329
-         UPDATED=20250812
+         UPDATED=20251105
            SHORT="library for reading and writing images"
 
 cat << EOF

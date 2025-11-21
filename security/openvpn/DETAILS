@@ -1,11 +1,11 @@
           MODULE=openvpn
-         VERSION=2.6.14
+         VERSION=2.6.16
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/OpenVPN/openvpn/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:a48131afa86ad7c90d16748ecea76ae519a81f2dc37521941a373c54d41f4c77
+      SOURCE_VFY=sha256:80256bf2f9f4c912dbc72e8b00180f6c30fb40a1bb2122fb5e686e71af6a06e7
         WEB_SITE=http://openvpn.net/
          ENTERED=20040127
-         UPDATED=20250529
+         UPDATED=20251117
            SHORT="Highly configurable VPN (Virtual Private Network) daemon"
 
 cat << EOF

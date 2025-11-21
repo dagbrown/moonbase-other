@@ -1,11 +1,11 @@
           MODULE=unixODBC
-         VERSION=2.3.12
+         VERSION=2.3.14
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=https://www.unixodbc.org
-      SOURCE_VFY=sha256:f210501445ce21bf607ba51ef8c125e10e22dffdffec377646462df5f01915ec
+      SOURCE_VFY=sha256:4e2814de3e01fc30b0b9f75e83bb5aba91ab0384ee951286504bb70205524771
         WEB_SITE=https://www.unixodbc.org/
          ENTERED=20070515
-         UPDATED=20230817
+         UPDATED=20251023
            SHORT="API for using database management systems"
 
 cat << EOF

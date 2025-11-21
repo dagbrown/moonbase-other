@@ -1,11 +1,11 @@
           MODULE=qalculate-gtk
-         VERSION=5.6.0
+         VERSION=5.8.2
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=https://github.com/Qalculate/qalculate-gtk/releases/download/v${VERSION}/
-     SOURCE_VFY=sha256:3dabd3b1ed981222b7fe7d2c14d47926715b8ae13098b0a4bdaa9dce96eee36d
+     SOURCE_VFY=sha256 20a3d4c4c63f53236cdaa79234e8d51e4deb5b647aff32bc310b920261ce68a3
         WEB_SITE=http://qalculate.github.io/
          ENTERED=20160728
-         UPDATED=20250709
+         UPDATED=20251119
            SHORT="Qalculate! GTK+ UI"
 
 cat << EOF

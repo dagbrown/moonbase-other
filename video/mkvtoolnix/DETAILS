@@ -1,11 +1,11 @@
          MODULE=mkvtoolnix
-        VERSION=94.0
+        VERSION=96.0
          SOURCE=$MODULE-$VERSION.tar.xz
      SOURCE_URL=https://mkvtoolnix.download/sources/
-     SOURCE_VFY=sha256:babbcff2362c9dd00b2e79336eff83fad177603a51a458ef1fa421b27fbc4703
+     SOURCE_VFY=sha256:509a1e3aca1f63fe5cc96b4c7272ba533dbcbb69c61d1c5114dccf610fd405cb
        WEB_SITE=https://mkvtoolnix.download/index.html
         ENTERED=20031113
-        UPDATED=20250814
+        UPDATED=20251119
           SHORT="Tools for using Matroska audio/video container files"
 
 cat << EOF

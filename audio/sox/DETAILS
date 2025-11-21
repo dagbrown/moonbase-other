@@ -1,11 +1,12 @@
           MODULE=sox
-         VERSION=14.4.2
-          SOURCE=$MODULE-$VERSION.tar.gz
-      SOURCE_URL=$SFORGE_URL/$MODULE
-      SOURCE_VFY=sha256:b45f598643ffbd8e363ff24d61166ccec4836fea6d3888881b8df53e3bb55f6c
+         VERSION=14.6.1.2
+          SOURCE=$MODULE\_ng-$VERSION.tar.gz
+      SOURCE_URL=https://codeberg.org/sox_ng/sox_ng/releases/download/sox_ng-$VERSION/
+      SOURCE_VFY=sha256:4a75a3fe6dc730910af858672bdb796fcaff28a09f6964402a00b9c2b26e3a1e
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/sox_ng-$VERSION
         WEB_SITE=http://sox.sourceforge.net
          ENTERED=20010922
-         UPDATED=20200210
+         UPDATED=20251108
            SHORT="Swiss Army knife of sound processing tools"
 
 cat << EOF

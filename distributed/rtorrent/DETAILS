@@ -1,15 +1,15 @@
           MODULE=rtorrent
-         VERSION=0.16.0
+         VERSION=0.16.2
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/rakshasa/rtorrent/archive/v${VERSION}.tar.gz
-      SOURCE_VFY=sha256:6ecef804c0e37b96594402a8927760a4debfc67067c0497b7932351c5eef3032
+      SOURCE_VFY=sha256:4979274bcaade32df230373737924640e76af43eeacec5b671001d6ac6bf5167
         WEB_SITE=http://rakshasa.github.io/rtorrent/
          ENTERED=20060704
-         UPDATED=20250905
+         UPDATED=20251104
            SHORT="A BitTorrent client using libtorrent"
 
 cat << EOF
-rtorrent is a BitTorrent library written using libtorrent. It uses
-ncurses and is ideal for use with screen or dtach. It supports saving
-of sessions and allows the user to add and remove torrents.
+rtorrent is a BitTorrent library written using libtorrent. It uses ncurses and is ideal
+for use with screen or dtach. It supports saving of sessions and allows the user to add
+and remove torrents.
 EOF

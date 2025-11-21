@@ -1,11 +1,11 @@
           MODULE=squid
-         VERSION=7.1
+         VERSION=7.3
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://github.com/squid-cache/squid/releases/download/SQUID_${VERSION/./_}/
-     SOURCE_VFY=sha256:
+     SOURCE_VFY=sha256:dadc2a9a3926ce1b3babeaa7a7d7b21cbb089025876daa3f5c19e7eb6391ddcd
         WEB_SITE=http://www.squid-cache.org
          ENTERED=20011214
-         UPDATED=20250731
+         UPDATED=20251029
            SHORT="A full-featured Web proxy cache"
 
 cat << EOF

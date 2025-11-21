@@ -1,11 +1,11 @@
           MODULE=harfbuzz
-         VERSION=11.5.0
+         VERSION=12.2.0
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://github.com/harfbuzz/harfbuzz/releases/download/$VERSION/
-      SOURCE_VFY=sha256:2d30ba45c4c8ec4de661a1002b4f88d0841ff1a3087f34629275f5436d722109
+      SOURCE_VFY=sha256:ecb603aa426a8b24665718667bda64a84c1504db7454ee4cadbd362eea64e545
         WEB_SITE=https://freedesktop.org/wiki/Software/HarfBuzz
          ENTERED=20130511
-         UPDATED=20250912
+         UPDATED=20251105
            SHORT="OpenType text shaping engine"
 
 cat << EOF

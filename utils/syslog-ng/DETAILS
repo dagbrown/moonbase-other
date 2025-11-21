@@ -1,11 +1,11 @@
           MODULE=syslog-ng
-         VERSION=4.9.0
+         VERSION=4.10.2
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=https://github.com/syslog-ng/syslog-ng/releases/download/$MODULE-$VERSION/
-      SOURCE_VFY=sha256:6959545cb9aaa694e4514f472c69d6e5a908abb5161861a0082c917cdf7184e2
+      SOURCE_VFY=sha256:841503de6c2486e66fd08f0c62ac2568fc8ed1021297f855e8acd58ad7caff76
         WEB_SITE=https://github.com/syslog-ng/syslog-ng
          ENTERED=20180106
-         UPDATED=20250724
+         UPDATED=20251020
            SHORT="Next-generation log daemon"
 
 cat << EOF
