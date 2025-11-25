@@ -1,6 +1,4 @@
-OPTS+=" -DWITH_PKGCONFIG=ON \
-        -DBUILD_SHARED_LIBS=ON \
-        -DCMAKE_INSTALL_PREFIX=/usr \
+OPTS+=" -DCMAKE_INSTALL_PREFIX=/usr \
         -DCMAKE_BUILD_TYPE=Release \
         -Wno-dev"
 
