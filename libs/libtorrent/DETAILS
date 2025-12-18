@@ -1,11 +1,11 @@
           MODULE=libtorrent
-         VERSION=0.16.2
+         VERSION=0.16.5
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/rakshasa/libtorrent/archive/v${VERSION}.tar.gz
-      SOURCE_VFY=sha256:68391b28a55cb039eb385a20cc9333ade0646bea4d13c05e2b40c080d33c7505
+      SOURCE_VFY=sha256:fdd94681b92d8a5bc6077bb54d8c6529fe8bfa700af9ec118e0292c8200dbcb3
         WEB_SITE=http://rakshasa.github.io/rtorrent/
          ENTERED=20060704
-         UPDATED=20251104
+         UPDATED=20251202
            SHORT="A BitTorrent library written in C++"
 
 cat << EOF
