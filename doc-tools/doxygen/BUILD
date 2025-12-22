@@ -10,14 +10,16 @@ fi &&
 OPTS+=" -DCMAKE_INSTALL_PREFIX=/usr \
         -DCMAKE_BUILD_TYPE=Release \
         -DCMAKE_INSTALL_LIBDIR=lib \
+        -DGIT_EXECUTABLE=false \
         -Duse_sys_fmt=ON \
+        -Duse_sys_spdlog=ON \
         -Dbuild_doc=OFF \
         -Wno-dev"
 
 cmake -B $MODULE-$VERSION -S . -G Ninja $OPTS &&
 cmake --build $MODULE-$VERSION &&
 
-prepare_install
-cmake --install $MODULE-$VERSION
+prepare_install &&
+cmake --install $MODULE-$VERSION &&
 
 default_cmake_build
