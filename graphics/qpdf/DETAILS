@@ -1,11 +1,11 @@
           MODULE=qpdf
-         VERSION=12.2.0
+         VERSION=12.3.2
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/qpdf/qpdf/archive/refs/tags/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:2d004611699a94030a594318393f08a7352ab1cf3cee337c5312d4e7eb7f8a4f
+      SOURCE_VFY=sha256:11ac1800f0d7334863fa1fce6a8b87b105897610bb6a25b9b883ba3f9f1aa4d7
         WEB_SITE=https://qpdf.sourceforge.io
          ENTERED=20130202
-         UPDATED=20250828
+         UPDATED=20260125
            SHORT="Structural, content-preserving transformations on PDF files"
 
 cat << EOF

@@ -1,11 +1,11 @@
           MODULE=partclone
-         VERSION=0.3.40
+         VERSION=0.3.44
           SOURCE=${MODULE}-${VERSION}.tar.gz
  SOURCE_URL_FULL=https://github.com/Thomas-Tsai/partclone/archive/refs/tags/${VERSION}.tar.gz
-      SOURCE_VFY=sha256:c071a99afcaa327ca7cb541d0ca5d33d6564528ed6d7e803d54206d1c0218291
+      SOURCE_VFY=sha256:c4f2a069e14de1bcd26669ed2005b15406a80183962c813ad238dc507de90662
         WEB_SITE=https://partclone.org
          ENTERED=20121001
-         UPDATED=20251126
+         UPDATED=20260127
            SHORT="Smartly backup partitions"
 
 cat << EOF

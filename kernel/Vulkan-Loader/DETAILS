@@ -1,11 +1,11 @@
           MODULE=Vulkan-Loader
-         VERSION=1.4.313
+         VERSION=1.4.342
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/KhronosGroup/Vulkan-Loader/archive/refs/tags/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:0c2436993597f5bd0ee420b6b27632758ed3ab439043d251795fd13d4e70a2f3
+      SOURCE_VFY=sha256:b36a4ad2f17df07b3d3e29329e43314c032600dd48830b1fd72e71991550a6a5
         WEB_SITE=https://github.com/KhronosGroup/Vulkan-Loader
          ENTERED=20230316
-         UPDATED=20250425
+         UPDATED=20260203
            SHORT="Vulkan ICD desktop loader"
 
 cat << EOF

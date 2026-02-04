@@ -1,10 +1,15 @@
-export CFLAGS="$CFLAGS -fPIC" &&
+CFLAGS+=" -ffat-lto-objects"
 
-cd contrib/minizip &&
-libtoolize -cfi &&
-autoreconf -fis &&
-
-default_build &&
+cd contrib/minizip
+autoreconf -fvi &&
 
 # https://github.com/madler/zlib/pull/229
-rm /usr/include/minizip/crypt.h
+./configure --prefix=/usr --enable-static=no --includedir=/usr/include &&
+make &&
+
+prepare_install
+make install 
+
+#ln -sf /usr/lib/minizip/pkgconfig/minizip.pc /usr/lib/pkgconfig/minizip.pc &&
+
+rm -f /usr/include/minizip/crypt.h

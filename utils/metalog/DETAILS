@@ -1,12 +1,11 @@
            MODULE=metalog
-          VERSION=20230719
+          VERSION=20260105
            SOURCE=$MODULE-$VERSION.tar.gz
-       SOURCE_URL=https://github.com/hvisage/metalog/archive/
-       SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$MODULE-$VERSION
-       SOURCE_VFY=sha256:563b41409ee9e396c3709f002b59ccd9aff901b7d7e3adee6344e4b599a02105
+  SOURCE_URL_FULL=https://github.com/hvisage/$MODULE/archive/refs/tags/$VERSION.tar.gz
+       SOURCE_VFY=sha256:58ee4f423d51eccdd4b404c7c6e3b62b334d7be6e1a052bca1b0efb2501f69cc
          WEB_SITE=https://github.com/hvisage/metalog/
           ENTERED=20251113
-          UPDATED=20251113
+          UPDATED=20260106
             SHORT="A modern replacement for syslogd and klogd"
 
 cat << EOF

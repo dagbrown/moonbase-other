@@ -1,11 +1,11 @@
           MODULE=libheif
-         VERSION=1.20.2
+         VERSION=1.21.2
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=https://github.com/strukturag/libheif/releases/download/v$VERSION/
-      SOURCE_VFY=sha256:68ac9084243004e0ef3633f184eeae85d615fe7e4444373a0a21cebccae9d12a
+      SOURCE_VFY=sha256:75f530b7154bc93e7ecf846edfc0416bf5f490612de8c45983c36385aa742b42
         WEB_SITE=https://github.com/strukturag/libheif/
          ENTERED=20181108
-         UPDATED=20251108
+         UPDATED=20260116
            SHORT="HEIF file format decoder and encoder"
 
 cat << EOF

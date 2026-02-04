@@ -14,7 +14,7 @@ CXXFLAGS="${CXXFLAGS/-fexceptions/}"
 # LTO needs more open files
 ulimit -n 8192 &&
 
-./mach configure || ./mach configure &&
+./mach configure &&
 ./mach build --verbose &&
 
 prepare_install &&
