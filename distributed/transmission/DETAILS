@@ -1,11 +1,11 @@
           MODULE=transmission
-         VERSION=4.0.6
+         VERSION=4.1.1
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://github.com/transmission/transmission/releases/download/$VERSION/
-      SOURCE_VFY=sha256:2a38fe6d8a23991680b691c277a335f8875bdeca2b97c6b26b598bc9c7b0c45f
+      SOURCE_VFY=sha256:e743283ee03a42c4d0b08fed2bd52b554aa6c9f65b4d4d45b795c32d98762a79
         WEB_SITE=http://transmissionbt.com
          ENTERED=20060626
-         UPDATED=20240605
+         UPDATED=20260220
            SHORT="A fast and powerful BitTorrent client"
 
 cat << EOF
