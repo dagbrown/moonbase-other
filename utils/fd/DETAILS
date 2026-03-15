@@ -1,11 +1,11 @@
           MODULE=fd
-         VERSION=10.3.0
+         VERSION=10.4.2
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/sharkdp/fd/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:2edbc917a533053855d5b635dff368d65756ce6f82ddefd57b6c202622d791e9
+      SOURCE_VFY=sha256:3a7e027af8c8e91c196ac259c703d78cd55c364706ddafbc66d02c326e57a456
         WEB_SITE=https://github.com/sharkdp/fd/
          ENTERED=20190509
-         UPDATED=20251201
+         UPDATED=20260311
            SHORT="Simple, fast and user-friendly alternative to find"
 
 cat << EOF
