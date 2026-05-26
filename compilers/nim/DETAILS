@@ -1,12 +1,12 @@
           MODULE=nim
-         VERSION=2.2.6
+         VERSION=2.2.10
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=http://github.com/nim-lang/Nim/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:4a691f3a5351540ca493ffe1f812cb3151cea9ab540d5001b54865d253229072
+      SOURCE_VFY=sha256:58d8106e9f1936bf00707ee89f90ebfd001b21231d0875c6f9d700ca545cfc90
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/Nim-$VERSION
         WEB_SITE=http://nim-lang.org/
          ENTERED=20150302
-         UPDATED=20251219
+         UPDATED=20260425
            SHORT="Imperative, multi-paradigm, compiled programming language"
 
 cat << EOF

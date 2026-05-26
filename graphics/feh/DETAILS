@@ -1,12 +1,12 @@
-          MODULE=feh
-         VERSION=3.11.3
-          SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=https://feh.finalrewind.org/
-      SOURCE_VFY=sha256:f2cca3592a433922c0db7a9365fd63e5402c121d932a9327e279c71be6501063
-        WEB_SITE=https://feh.finalrewind.org/
-         ENTERED=20011101
-         UPDATED=20260220
-           SHORT="A fast, lightweight image viewer which uses imlib2"
+    MODULE=feh
+   VERSION=3.12.2
+    SOURCE=$MODULE-$VERSION.tar.bz2
+SOURCE_URL=https://feh.finalrewind.org/
+SOURCE_VFY=sha256:7ce358b18a7f37bcc97a09b4efd89fdadd54cd8e7032db345f61e66dd04b1c3f
+  WEB_SITE=https://feh.finalrewind.org/
+   ENTERED=20011101
+   UPDATED=20260508
+     SHORT="A fast, lightweight image viewer which uses imlib2"
 
 cat << EOF
 feh is a fast, lightweight image viewer which uses imlib2.

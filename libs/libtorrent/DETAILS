@@ -1,12 +1,12 @@
-          MODULE=libtorrent
-         VERSION=0.16.6
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/rakshasa/libtorrent/archive/v${VERSION}.tar.gz
-      SOURCE_VFY=sha256:720ff411ef0627a928141cad7f60b171a2fc44fb8700b0914e0072eab1a7be1b
-        WEB_SITE=https://rakshasa.github.io/rtorrent/
-         ENTERED=20060704
-         UPDATED=20260104
-           SHORT="A BitTorrent library written in C++"
+         MODULE=libtorrent
+        VERSION=0.16.12
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/rakshasa/libtorrent/archive/v${VERSION}.tar.gz
+     SOURCE_VFY=sha256:1ecbb5d7802e18e807d3c2f58499e5c189ef81badb2c6c6ebb2399d49c08f5c1
+       WEB_SITE=https://rakshasa.github.io/rtorrent/
+        ENTERED=20060704
+        UPDATED=20260519
+          SHORT="A BitTorrent library written in C++"
 
 cat << EOF
 libtorrent is a BitTorrent library written in C++ with a focus on high

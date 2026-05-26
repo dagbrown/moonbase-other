@@ -1,12 +1,12 @@
           MODULE=python-build
-         VERSION=1.4.0
+         VERSION=1.4.3
           SOURCE=build-$VERSION.tar.gz
       SOURCE_URL=https://files.pythonhosted.org/packages/source/b/build/
-      SOURCE_VFY=sha256:f1b91b925aa322be454f8330c6fb48b465da993d1e7e7e6fa35027ec49f3c936
+      SOURCE_VFY=sha256:5aa4231ae0e807efdf1fd0623e07366eca2ab215921345a2e38acdd5d0fa0a74
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/build-$VERSION
         WEB_SITE=https://pypi.org/project/build/
          ENTERED=20221025
-         UPDATED=20260303
+         UPDATED=20260413
            SHORT="correct PEP 517 build frontend"
 
 cat << EOF

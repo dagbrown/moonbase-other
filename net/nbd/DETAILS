@@ -1,12 +1,12 @@
           MODULE=nbd
-         VERSION=3.26.1
+         VERSION=3.27.1
           SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$MODULE-$VERSION
       SOURCE_URL=https://github.com/NetworkBlockDevice/nbd/archive/refs/tags/
-      SOURCE_VFY=sha256:8f68b957f1d50492d6fdc9be6027a19b40c00cc826be226c945e22ccd5ed32e2
+      SOURCE_VFY=sha256:5e99e7556d713663b7926fa9fde53219be170123bff1c1a3835b78f21cc4befc
         WEB_SITE=https://nbd.sourceforge.io/
          ENTERED=20220822
-         UPDATED=20240304
+         UPDATED=20260410
            SHORT="Allows using a remote server as one of its block devices"
 
 cat << EOF

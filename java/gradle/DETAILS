@@ -1,11 +1,11 @@
           MODULE=gradle
-         VERSION=9.4.0
+         VERSION=9.5.1
           SOURCE=$MODULE-$VERSION-all.zip
       SOURCE_URL=https://services.gradle.org/distributions/
-      SOURCE_VFY=sha256:b21468753cb43c167738ee04f10c706c46459cf8f8ae6ea132dc9ce589a261f2
+      SOURCE_VFY=sha256:c72fb9991f6025cbe337d52ba77e531b3faf62bdd3e348fe1ccee9f51c71adb0
         WEB_SITE=https://gradle.org/
          ENTERED=20180307
-         UPDATED=20260305
+         UPDATED=20260513
            SHORT="A powerful build system for the JVM"
 
 cat <<EOF

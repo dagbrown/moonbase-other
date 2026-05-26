@@ -1,11 +1,11 @@
          MODULE=node
-        VERSION=25.8.1
+        VERSION=26.1.0
          SOURCE=node-$VERSION.tar.gz
 SOURCE_URL_FULL=https://github.com/nodejs/node/archive/v$VERSION.tar.gz
-     SOURCE_VFY=sha256:d92c81bc137d16911516e315041e8920f2403d90f41737a0f38bd90b6c0c70ec
+     SOURCE_VFY=sha256:ac1be109c3f63711cfd579284e47a715b5f10e424ce3bd3d6f0bf773a03daca5
        WEB_SITE=https://nodejs.org/
         ENTERED=20140419
-        UPDATED=20260312
+        UPDATED=20260508
           SHORT="asynchronous event-driven JavaScript runtime"
 
 cat << EOF

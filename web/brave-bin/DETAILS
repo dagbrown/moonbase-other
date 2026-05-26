@@ -1,12 +1,12 @@
           MODULE=brave-bin
-         VERSION=1.87.191
+         VERSION=1.90.122
           SOURCE=brave-browser-$VERSION-linux-amd64.zip
       SOURCE_URL=https://github.com/brave/brave-browser/releases/download/v$VERSION/
-      SOURCE_VFY=sha256:0a0af1158663e6483acf76d81393414555bd590e9e216997863cd72afc69efa0
+      SOURCE_VFY=sha256:2fe00f79215c79a65968db4bca28ad6c0e52afc8b6194ff0de725404fba3623f
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/brave-browser-$VERSION-linux-amd64
         WEB_SITE=https://brave.com/
          ENTERED=20210628
-         UPDATED=20260225
+         UPDATED=20260515
            SHORT="brave web browser"
 
 cat << EOF

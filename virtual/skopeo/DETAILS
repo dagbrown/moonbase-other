@@ -1,11 +1,11 @@
           MODULE=skopeo
-         VERSION=1.21.0
+         VERSION=1.22.2
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/containers/skopeo/archive/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:f76eeddf697a3cc7a872e3077ab4d0fdbebe9f3c6171462e3e9feb84368b3fac
+      SOURCE_VFY=sha256:b6e1f208c1048f7a80613e8154774e6a3fdc891aeb45325c8ed905be4dee48d8
         WEB_SITE=https://github.com/containers/skopeo/
          ENTERED=20191214
-         UPDATED=20251204
+         UPDATED=20260417
            SHORT="A cli utility for various operations on container images and image repositories"
 
 cat << EOF

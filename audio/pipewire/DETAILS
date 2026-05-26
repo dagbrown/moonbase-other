@@ -1,12 +1,12 @@
-          MODULE=pipewire
-         VERSION=1.6.1
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/PipeWire/pipewire/archive/$VERSION.tar.gz
-      SOURCE_VFY=sha256:fe129cab5e5c262f4d8b22a7eba559b5f847e560a4904e8618124eeaca9a579c
-        WEB_SITE=https://github.com/PipeWire/pipewire
-         ENTERED=20190820
-         UPDATED=20260311
-           SHORT="Server and user space API to deal with multimedia pipelines"
+         MODULE=pipewire
+        VERSION=1.6.6
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/PipeWire/pipewire/archive/$VERSION.tar.gz
+     SOURCE_VFY=sha256:b2a0a8de6946b8145a453639c936555beb0cbf2f2486e0b1c676cffdaaf029d9
+       WEB_SITE=https://github.com/PipeWire/pipewire
+        ENTERED=20190820
+        UPDATED=20260526
+          SHORT="Server and user space API to deal with multimedia pipelines"
 
 cat << EOF
 PipeWire is a server and user space API to deal with multimedia pipelines.

@@ -1,11 +1,11 @@
           MODULE=poppler
-         VERSION=26.02.0
+         VERSION=26.04.0
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://poppler.freedesktop.org/
-      SOURCE_VFY=sha256:dded8621f7b2f695c91063aab1558691c8418374cd583501e89ed39487e7ab77
+      SOURCE_VFY=sha256:b0955163114af96bc0106f68cb24daf973a629462453d8b82775f81b0d4e0693
         WEB_SITE=https://poppler.freedesktop.org/
          ENTERED=20050918
-         UPDATED=20260222
+         UPDATED=20260412
            SHORT="A PDF rendering library"
 
 cat << EOF

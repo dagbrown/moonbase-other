@@ -1,12 +1,12 @@
          MODULE=texstudio
-        VERSION=4.9.2
+        VERSION=4.9.4
          SOURCE=${MODULE%-*}-$VERSION.tar.gz
 SOURCE_URL_FULL=https://github.com/texstudio-org/texstudio/archive/$VERSION.tar.gz
-     SOURCE_VFY=sha256:5512c37354318190bc2d2fd2b4972821e57edb2ab878cbba7cdedbe56efbe09c
+     SOURCE_VFY=sha256:3e2c5e5979570f2c2b7b158d3be1aa584747b0d2bd72d615aa7fde5300b5d09f
        WEB_SITE=https://github.com/texstudio-org/texstudio
        REPLACES=texstudio-qt5
         ENTERED=20230207
-        UPDATED=20260314
+        UPDATED=20260510
           SHORT="Qt6 Fork of the LaTeX IDE TexMaker"
 
 cat << EOF

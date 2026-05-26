@@ -1,12 +1,12 @@
-          MODULE=tailscale
-         VERSION=1.94.1
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/tailscale/tailscale/archive/refs/tags/v${VERSION}.tar.gz
-      SOURCE_VFY=sha256:80eec367cabd6012a668233b11ca5c6df29b0dd24c7cfd74b71958c93ec9b644
-        WEB_SITE=https://tailscale.com/
-         ENTERED=20210320
-         UPDATED=20260202
-           SHORT="A mesh VPN that easy connect your devices, wherever they are"
+         MODULE=tailscale
+        VERSION=1.98.3
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/tailscale/tailscale/archive/refs/tags/v${VERSION}.tar.gz
+     SOURCE_VFY=sha256:9283ddbbf0a21ad37c725e09ac302aa96b37f00ca4b4142c00519cf983de0aa1
+       WEB_SITE=https://tailscale.com/
+        ENTERED=20210320
+        UPDATED=20260522
+          SHORT="A mesh VPN that easy connect your devices, wherever they are"
 
 cat << EOF
 Zero config VPN. Installs on any device in minutes, manages firewall rules for

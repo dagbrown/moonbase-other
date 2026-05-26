@@ -1,13 +1,13 @@
           MODULE=noto-fonts
-         VERSION=2026.03.01
+         VERSION=2026.05.01
           SOURCE=$MODULE-$VERSION.tar.gz
  SOURCE_URL_FULL=https://github.com/notofonts/notofonts.github.io/archive/refs/tags/noto-monthly-release-${VERSION}.tar.gz
-      SOURCE_VFY=sha256:033b0ecbbd40f5a8b4522e69b3ab913a1bbf499ee0c6d646f4c7f8c598d4f95a
+      SOURCE_VFY=sha256:6caa6ea6231842639119d4a9fefd80caed8cd58a49f73d4531b060412005c58d
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/notofonts.github.io-noto-monthly-release-$VERSION
         WEB_SITE=https://fonts.google.com/noto
          ENTERED=20181007
-         UPDATED=20260302
-           SHORT="noto fonts"
+         UPDATED=20260502
+           SHORT="Noto fonts"
 
 cat << EOF
 Noto fonts.

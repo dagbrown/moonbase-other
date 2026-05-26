@@ -1,12 +1,12 @@
-          MODULE=libcap-ng
-         VERSION=0.9.1
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/stevegrubb/libcap-ng/archive/refs/tags/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:52418b8940f83dcc00dcd01d187e67c3399ff65f3fa558442e3a21b415cc46c0
-        WEB_SITE=https://people.redhat.com/sgrubb/libcap-ng
-         ENTERED=20110205
-         UPDATED=20260305
-           SHORT="Next generation of library capabilities"
+         MODULE=libcap-ng
+        VERSION=0.9.3
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/stevegrubb/libcap-ng/archive/refs/tags/v$VERSION.tar.gz
+     SOURCE_VFY=sha256:fe11ebbb55904763b3532f19069f13ec319042634620180a03bd4653d301563e
+       WEB_SITE=https://people.redhat.com/sgrubb/libcap-ng
+        ENTERED=20110205
+        UPDATED=20260410
+          SHORT="Next generation of library capabilities"
 
 cat << EOF
 The libcap-ng library is intended to make programming with posix capabilities

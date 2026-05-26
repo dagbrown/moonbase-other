@@ -1,13 +1,13 @@
           MODULE=python-regex
-         VERSION=2026.2.28
+         VERSION=2026.5.9
           SOURCE=regex-$VERSION.tar.gz
       SOURCE_URL=https://pypi.io/packages/source/r/regex/
-      SOURCE_VFY=sha256:a729e47d418ea11d03469f321aaf67cdee8954cde3ff2cf8403ab87951ad10f2
+      SOURCE_VFY=sha256:a8234aa23ec39894bfe4a3f1b85616a7032481964a13ac6fc9f10de4f6fca270
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/regex-$VERSION
         WEB_SITE=https://pypi.org/project/regex/
             TYPE=python3
          ENTERED=20181027
-         UPDATED=20260303
+         UPDATED=20260523
            SHORT="An alternative python regular expression module"
 
 cat << EOF

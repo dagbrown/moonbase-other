@@ -1,13 +1,13 @@
-          MODULE=radare2
-         VERSION=5.9.8
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/radareorg/radare2/archive/refs/tags/$VERSION.tar.gz
-      SOURCE_VFY=sha256:e45e4fd342f04b2e00363bc1b68cc375c1cf36041085d3d59caa7a3b7be43836
-        WEB_SITE=https://www.radare.org/n/
-            TYPE=meson
-         ENTERED=20210429
-         UPDATED=20250101
-           SHORT="reverse engineering framework"
+         MODULE=radare2
+        VERSION=6.1.4
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/radareorg/radare2/archive/refs/tags/$VERSION.tar.gz
+     SOURCE_VFY=sha256:e025d623aa253e20b050164e65f140e437c110812a7b4c8b1b1342f692dfb452
+       WEB_SITE=https://www.radare.org/n/
+           TYPE=meson
+        ENTERED=20210429
+        UPDATED=20260413
+          SHORT="reverse engineering framework"
 
 cat << EOF
 Radare project started as a forensics tool, a scriptable

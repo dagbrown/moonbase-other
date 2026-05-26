@@ -1,12 +1,12 @@
-          MODULE=ugrep
-         VERSION=7.6.0
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/Genivia/ugrep/archive/v${VERSION}.tar.gz
-      SOURCE_VFY=sha256:afe88bdf4062239df240aaa2b4c788bb4282f554dee0982010bb3d36ef29e1c0
-        WEB_SITE=https:/github.com/Genivia/ugrep/
-         ENTERED=20210205
-         UPDATED=20260306
-           SHORT="Universal grep is a ultra fast searcher"
+         MODULE=ugrep
+        VERSION=7.8.2
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/Genivia/ugrep/archive/v${VERSION}.tar.gz
+     SOURCE_VFY=sha256:f991cc6c61dbc5af5a3b3939083e917df4113509549670fb400d121f639f69f6
+       WEB_SITE=https:/github.com/Genivia/ugrep/
+        ENTERED=20210205
+        UPDATED=20260518
+          SHORT="Universal grep is a ultra fast searcher"
 
 cat << EOF
 Search for anything in everything... ultra fast.

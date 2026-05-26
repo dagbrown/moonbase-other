@@ -1,12 +1,12 @@
-          MODULE=skim
-         VERSION=0.20.5
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/skim-rs/skim/archive/v${VERSION}.tar.gz
-      SOURCE_VFY=sha256:c9b367bd37daa38b95a5da1e8f967279f4127168a38986b2f7d33a4b5fd413c2
-        WEB_SITE=https://github.com/skim-rs/skim/
-         ENTERED=20200627
-         UPDATED=20250812
-           SHORT="Fuzzy Finder in rust"
+         MODULE=skim
+        VERSION=4.6.3
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/skim-rs/skim/archive/v${VERSION}.tar.gz
+     SOURCE_VFY=sha256:ce5bd17c0440760607ff403cf8363437e30b95100840a4704ccbf86c3b0709c2
+       WEB_SITE=https://github.com/skim-rs/skim/
+        ENTERED=20200627
+        UPDATED=20260523
+          SHORT="Fuzzy Finder in rust"
 
 cat << EOF
 Half of our life is spent on navigation: files, lines, commands.

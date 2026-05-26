@@ -1,13 +1,13 @@
-          MODULE=umockdev
-         VERSION=0.19.3
-          SOURCE=$MODULE-$VERSION.tar.xz
-      SOURCE_URL=https://github.com/martinpitt/umockdev/releases/download/$VERSION/
-      SOURCE_VFY=sha256:46e45eab6f656bfc092438d7e0e5df4c5f51d18e3a83360c2be680b207a1a0b7
-        WEB_SITE=https://github.com/martinpitt/umockdev
-            TYPE=meson
-         ENTERED=20220526
-         UPDATED=20250819
-           SHORT="mocks Linux devices for creating integration tests"
+    MODULE=umockdev
+   VERSION=0.19.7
+    SOURCE=$MODULE-$VERSION.tar.xz
+SOURCE_URL=https://github.com/martinpitt/umockdev/releases/download/$VERSION/
+SOURCE_VFY=sha256:c8f72e151913bc0e94c575f8f12109082f72392442b28ed8ea47a0a379210870
+  WEB_SITE=https://github.com/martinpitt/umockdev
+      TYPE=meson
+   ENTERED=20220526
+   UPDATED=20260327
+     SHORT="mocks Linux devices for creating integration tests"
 
 cat << EOF
 umockdev mocks Linux devices for creating integration tests for hardware

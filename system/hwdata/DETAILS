@@ -1,12 +1,12 @@
-          MODULE=hwdata
-         VERSION=0.403
-          SOURCE=$MODULE-$VERSION.tar.gz
- SOURCE_URL_FULL=https://github.com/vcrhonek/hwdata/archive/refs/tags/v$VERSION.tar.gz
-      SOURCE_VFY=sha256:77d0a69e5558d16d33bbb510a09093deaf11c882baf9ef6ec5f18a8ef96e2c13
-        WEB_SITE=https://github.com/vcrhonek/hwdata
-         ENTERED=20220214
-         UPDATED=20260106
-           SHORT="hardware identification database"
+         MODULE=hwdata
+        VERSION=0.407
+         SOURCE=$MODULE-$VERSION.tar.gz
+SOURCE_URL_FULL=https://github.com/vcrhonek/hwdata/archive/refs/tags/v$VERSION.tar.gz
+     SOURCE_VFY=sha256:6a88f6f5cb510fbfaa9c49488348b7fcd7aa209b0a331f24dfebb1c8c339568b
+       WEB_SITE=https://github.com/vcrhonek/hwdata
+        ENTERED=20220214
+        UPDATED=20260518
+          SHORT="hardware identification database"
 
 cat << EOF
 Hardware identification database.
