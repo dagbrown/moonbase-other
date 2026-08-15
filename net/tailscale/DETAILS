@@ -1,11 +1,11 @@
          MODULE=tailscale
-        VERSION=1.98.8
+        VERSION=1.102.2
          SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL_FULL=https://github.com/tailscale/tailscale/archive/refs/tags/v${VERSION}.tar.gz
-     SOURCE_VFY=sha256:4dfd5e53b6ea0a7827bbe3e8d922b7b16fb91034effcdce243e61eacd183e41d
+     SOURCE_VFY=sha256:66c447b5555aa89e0690dc21e0ec59421302ceaa982f3ccc0df686b16f5d5505
        WEB_SITE=https://tailscale.com/
         ENTERED=20210320
-        UPDATED=20260630
+        UPDATED=20260805
           SHORT="A mesh VPN that easy connect your devices, wherever they are"
 
 cat << EOF

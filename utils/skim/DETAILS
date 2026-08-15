@@ -1,11 +1,11 @@
          MODULE=skim
-        VERSION=5.3.2
+        VERSION=5.6.1
          SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL_FULL=https://github.com/skim-rs/skim/archive/v${VERSION}.tar.gz
-     SOURCE_VFY=sha256:f0889a63c4b1e834db1456a5d0c722e4bddaa7a476b7cc3b7837caf3f4baac53
+     SOURCE_VFY=sha256:e85c921fee7513453b487d2f72b6f47e9ffdf95110dcd4c1af39a13bade65549
        WEB_SITE=https://github.com/skim-rs/skim/
         ENTERED=20200627
-        UPDATED=20260721
+        UPDATED=20260802
           SHORT="Fuzzy Finder in rust"
 
 cat << EOF

@@ -1,11 +1,11 @@
           MODULE=pango
-         VERSION=1.58.0
-          SOURCE=$MODULE-$VERSION.tar.xz
-      SOURCE_URL=$GNOME_URL/sources/$MODULE/${VERSION%.*}
-      SOURCE_VFY=sha256:bc5bad6213ad4886a47d1e80292fd850b64159b50db67917a43d9ea80ee2298a
+         VERSION=1.58.2
+          SOURCE=$MODULE-$VERSION.tar.gz
+ SOURCE_URL_FULL=https://github.com/GNOME/pango/archive/refs/tags/$VERSION.tar.gz
+      SOURCE_VFY=sha256:67b20e56a51aad6673261d2b7d41ced3687e59b82fe8c10a40ea43baf304cf0e
         WEB_SITE=http://www.pango.org
          ENTERED=20020313
-         UPDATED=20260626
+         UPDATED=20260806
            SHORT="A library for text layout and rendering"
 
 cat << EOF

@@ -1,11 +1,11 @@
           MODULE=apr-util
-         VERSION=1.6.3
+         VERSION=1.6.5
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=https://dlcdn.apache.org/apr/
-      SOURCE_VFY=sha256:a41076e3710746326c3945042994ad9a4fcac0ce0277dd8fea076fec3c9772b5
+      SOURCE_VFY=sha256:96de1dd6f6a0476d2d2e7964926d8c1ddc3bb0e210e1b1812d3ba5a454a392e2
         WEB_SITE=https://apr.apache.org
          ENTERED=20051208
-         UPDATED=20230201
+         UPDATED=20260813
            SHORT="Apache Portable Runtime Project"
 
 cat << EOF

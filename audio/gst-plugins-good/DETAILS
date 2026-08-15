@@ -1,11 +1,11 @@
           MODULE=gst-plugins-good
-         VERSION=1.29.1
+         VERSION=1.28.6
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=https://gstreamer.freedesktop.org/src/gst-plugins-good
-      SOURCE_VFY=sha256:65fb65449f4d9a4cc051384240cd5fca601c454c3a7892c97b74b8a48055abee
+      SOURCE_VFY=sha256:b0c620a4b18b6ee931b4c43bbf1760d308666dc37f730a7e7f1ad327e59ce2df
         WEB_SITE=https://gstreamer.freedesktop.org/modules/gst-plugins-good.html
          ENTERED=20130115
-         UPDATED=20260619
+         UPDATED=20260807
         REPLACES=gst-plugins-good-1.0
            SHORT="Additional plugins for Gstreamer"
 

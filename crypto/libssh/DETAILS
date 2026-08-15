@@ -1,13 +1,13 @@
-          MODULE=libssh
-         VERSION=0.12.0
-          SOURCE=$MODULE-$VERSION.tar.xz
-      SOURCE_URL=https://www.libssh.org/files/${VERSION%.*}/
-      SOURCE_VFY=sha256:1a6af424d8327e5eedef4e5fe7f5b924226dd617ac9f3de80f217d82a36a7121
-        WEB_SITE=http://www.libssh.org
-            TYPE=cmake
-         ENTERED=20091001
-         UPDATED=20260211
-           SHORT="A library for accessing ssh client services"
+    MODULE=libssh
+   VERSION=0.12.2
+    SOURCE=$MODULE-$VERSION.tar.xz
+SOURCE_URL=https://www.libssh.org/files/${VERSION%.*}/
+SOURCE_VFY=sha256:49560f677d96e3706a904ac2de1116e25f3680937d51e5c92198fcba4a1c1e9f
+  WEB_SITE=http://www.libssh.org
+      TYPE=cmake
+   ENTERED=20091001
+   UPDATED=20260801
+     SHORT="A library for accessing ssh client services"
 
 cat << EOF
 The ssh library was designed to be used by programmers needing a working SSH

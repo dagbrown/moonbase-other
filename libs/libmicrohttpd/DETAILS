@@ -1,12 +1,12 @@
        MODULE=libmicrohttpd
-      VERSION=1.0.6
+      VERSION=1.0.10
        SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL[0]=https://ftp.gnu.org/gnu/$MODULE/
 SOURCE_URL[1]=$GNU_URL/$MODULE/
-   SOURCE_VFY=sha256:bb5cfcadfc52dbd5eb512d6e2995e0361351c33e97a87aba426d3a4a7ba6cf70
+   SOURCE_VFY=sha256:04bfe8ef75db7d629a33de767599765cecadc56274a39822d5d081030d577685
      WEB_SITE=https://www.gnu.org/software/libmicrohttpd/
       ENTERED=20100904
-      UPDATED=20260709
+      UPDATED=20260808
         SHORT="Small httpd service library"
 
 cat << EOF
