@@ -1,9 +1,8 @@
-# not sure what this rpm is for, but its not there in 32bit OO, so I removed it
-LO_OPT_DIR="/usr/lib/libreoffice${VERSION%.*}"
+LO_VER="$(lvu version libreoffice-bin | cut -d"." -f1-2)"
+LO_OPT_DIR="/usr/lib/libreoffice${LO_VER}"
 
 message "${MESSAGE_COLOR}Unpacking base RPMs and installing...${DEFAULT_COLOR}" &&
 for pack in RPMS/*.rpm ; do bsdtar -xf $pack > `basename $pack .rpm` ; done &&
-#for i in `ls *.cpio`; do cpio -idmuV < $i ;done &&
 
 desktopfiles="base calc draw impress math startcenter writer xsltfilter" &&
 
@@ -19,11 +18,8 @@ ln -sf ${LO_OPT_DIR}/program/simpress /usr/bin/simpress &&
 ln -sf ${LO_OPT_DIR}/program/sbase    /usr/bin/sbase    &&
 ln -sf ${LO_OPT_DIR}/program/sdraw    /usr/bin/sdraw    &&
 ln -sf ${LO_OPT_DIR}/program/smath    /usr/bin/smath    &&
-ln -sf ${LO_OPT_DIR}/program/soffice  /usr/bin/libreoffice${VERSION%.*} &&
+ln -sf ${LO_OPT_DIR}/program/soffice.bin  /usr/bin/libreoffice${LO_VER} &&
 
 for i in $desktopfiles; do
-  ln -sf ${LO_OPT_DIR}/share/xdg/$i.desktop /usr/share/applications/libreoffice${VERSION%.*}-$i.desktop
-done &&
-
-rm -rf /usr/lib/libreoffice26.2/help/media/icon-themes/formula &&
-rm -rf /usr/lib/libreoffice26.2/share/config/soffice.cfg/formula/
+  ln -sf ${LO_OPT_DIR}/share/xdg/$i.desktop /usr/share/applications/libreoffice${VERSION}-$i.desktop
+done
