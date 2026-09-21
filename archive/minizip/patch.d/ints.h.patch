@@ -9,7 +9,7 @@ Signed-off-by: Rui Chen <rui@chenrui.dev>
  1 file changed, 1 insertion(+)
 
 diff --git a/contrib/minizip/Makefile.am b/contrib/minizip/Makefile.am
-index d343011eb..b7dea4f7e 100644
+index d343011ebc..b7dea4f7e7 100644
 --- a/contrib/minizip/Makefile.am
 +++ b/contrib/minizip/Makefile.am
 @@ -27,6 +27,7 @@ libminizip_la_LDFLAGS = $(AM_LDFLAGS) -version-info 1:0:0 -lz
