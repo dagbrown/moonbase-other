@@ -1,7 +1,3 @@
-git submodule init src/deps/rapidjson &&
-git submodule set-url src/deps/rapidjson opentimelineio-rapidjson &&
-git -c protocol.file.allow=always submodule update src/deps/rapidjson &&
-
 export CXXFLAGS+=" -I/usr/include/Imath"
 
 OPTS+=" -DMZ_ZLIB_FLAVOR=zlib \
@@ -9,7 +5,15 @@ OPTS+=" -DMZ_ZLIB_FLAVOR=zlib \
         -DOTIO_FIND_IMATH=ON \
         -DOTIO_DEPENDENCIES_INSTALL=OFF \
         -DOTIO_AUTOMATIC_SUBMODULES=OFF \
-        -DOTIO_FIND_RAPIDJSON=OFF \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr \
         -Wno-author"
 
-default_cmake_build
+cmake -B $MODULE-$VERSION -S . -G Ninja $OPTS &&
+cmake --build $MODULE-$VERSION &&
+
+prepare_install &&
+python -m build --wheel &&
+python -m installer --destdir=/ dist/*.whl &&
+
+cmake --install $MODULE-$VERSION
