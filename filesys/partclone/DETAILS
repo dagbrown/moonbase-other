@@ -1,12 +1,12 @@
-          MODULE=partclone
-         VERSION=0.3.50
-          SOURCE=${MODULE}-${VERSION}.tar.gz
- SOURCE_URL_FULL=https://github.com/Thomas-Tsai/partclone/archive/refs/tags/${VERSION}.tar.gz
-      SOURCE_VFY=sha256:ba66e6c7b46da3339bc7369ca90d647383660f8e74874a82dd8034a39193876e
-        WEB_SITE=https://partclone.org
-         ENTERED=20121001
-         UPDATED=20260915
-           SHORT="Smartly backup partitions"
+         MODULE=partclone
+        VERSION=0.3.52
+         SOURCE=${MODULE}-${VERSION}.tar.gz
+SOURCE_URL_FULL=https://github.com/Thomas-Tsai/partclone/archive/refs/tags/${VERSION}.tar.gz
+     SOURCE_VFY=sha256:15fcfafb42fea1fdbc9a022b2dc8cc49f60d49fee969b41ef3d05d944471dc12
+       WEB_SITE=https://partclone.org
+        ENTERED=20121001
+        UPDATED=20261028
+          SHORT="Smartly backup partitions"
 
 cat << EOF
 Partclone is a project like the well-known backup utility "Partition Image"

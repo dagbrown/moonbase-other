@@ -1,11 +1,11 @@
         MODULE=glycin
-       VERSION=2.2.3
+       VERSION=2.2.5
         SOURCE=$MODULE-$VERSION.tar.bz2
     SOURCE_URL=https://gitlab.gnome.org/GNOME/glycin/-/archive/$VERSION/
-    SOURCE_VFY=sha256:5f185de45356f81034ab26e610cc60aa5388ba9c6f044a34c71b3b38777fad6f
+    SOURCE_VFY=sha256:5c9ce3d12e14d7232e456875f3ef5fdfa847b8aaf8694d3e83c86cb21b950b2f
       WEB_SITE=https://gitlab.gnome.org/GNOME/glycin
        ENTERED=20250812
-       UPDATED=20261018
+       UPDATED=20261027
          SHORT="decode, edit, and create images and read metadata"
 
 cat << EOF
