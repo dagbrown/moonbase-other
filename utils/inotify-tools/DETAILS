@@ -1,11 +1,11 @@
          MODULE=inotify-tools
-        VERSION=4.26.270
+        VERSION=4.26.275
          SOURCE=$MODULE-$VERSION.tar.gz
 SOURCE_URL_FULL=https://github.com/rvoicilas/inotify-tools/archive/${VERSION}.tar.gz
-     SOURCE_VFY=sha256:c4187f85f9f963fa18b0430fc1beb3daefc69bd6649e1b07c47a885138bc9f03
+     SOURCE_VFY=sha256:11bba75bafb28d872ee91d0c36b0f8a015fcbc3ce0f8d3275445c95d26e04b81
        WEB_SITE=https://github.com/inotify-tools/inotify-tools
         ENTERED=20070430
-        UPDATED=20261009
+        UPDATED=20261109
           SHORT="Some commandline utilities relating to inotify"
 
 cat << EOF
